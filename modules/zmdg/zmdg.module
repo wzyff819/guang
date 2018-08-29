@@ -120,76 +120,45 @@ function zmdg_menu()
         'type' => MENU_NORMAL_ITEM,
     );
 
-    $items['enroll'] = [
-        'title' => '报名',
-        'page callback' => 'enroll',
-        'access arguments' => array('access content'),
-        'menu_name' => 'main-menu',
-        'type' => MENU_NORMAL_ITEM,
-    ];
-
     return $items;
 }
 
-function enroll()
-{
-    if($_POST)
-    {
-
-       if(db_insert('enroll')->fields($_POST)
-            ->execute())
-       {
-
-           $build = ['#markup' => '<div style="margin-bottom: 19px"><p>恭喜您报名成功</p><p>请保持手机畅通，客服人员会在48小时之内与您联系。</p></div>'];
-           return $build;
-       }
-
-    }
-    $build = ['#theme' => 'enroll', '#theme_url' => file_create_url(drupal_get_path('theme', 'guang'))];
-    echo render($build);
-}
 
 function zmdg_theme()
 {
     $path = drupal_get_path('module', 'zmdg');
     return [
-        'courses' => [
-            'variables' => ['courses' => null],
-            'path' => $path . '/tpl',
-            'template' => 'courses',
-        ],
+            'courses' => [
+                'variables' => ['courses' => null],
+                'path' => $path.'/tpl',
+                'template' => 'courses',
+            ],
 
         'teachers' => [
             'variables' => ['teachers' => null],
-            'path' => $path . '/tpl',
+            'path' => $path.'/tpl',
             'template' => 'teachers',
         ],
 
-        'top_image' => [
-            'variables' => ['img' => null],
-            'path' => $path . '/tpl',
-            'template' => 'course_top_img'
-        ],
-
-        'enroll' => [
-            'variables' => ['theme_url' => null],
-            'path' => $path . '/tpl',
-            'template' => 'enroll'
-        ],
-    ];
+            'top_image' => [
+                'variables' => ['img' => null],
+                'path' => $path.'/tpl',
+                'template' => 'course_top_img'
+            ]
+          ];
 
 }
 
 
 function zmdg_is_teachers_page()
 {
-    if ($_GET['q'] == 'teachers') return true;
+    if($_GET['q'] == 'teachers') return true;
     return false;
 }
 
 function zmdg_is_courses_page()
 {
-    if ($_GET['q'] == 'courses') return true;
+    if($_GET['q'] == 'courses') return true;
     return false;
 }
 
@@ -197,8 +166,8 @@ function courses()
 {
 
     $img = file_create_url('public://images/course.jpg');
-    $build['top_image'] = ['#theme' => 'top_image', '#img' => $img];
-    $build['courses'] = ['#theme' => 'courses', '#courses' => load_courses()];
+    $build['top_image'] =  ['#theme' => 'top_image', '#img' => $img];
+    $build['courses'] =  ['#theme' => 'courses', '#courses' => load_courses()];
     return $build;
 
 }
@@ -206,7 +175,7 @@ function courses()
 function teachers()
 {
     $img = file_create_url('public://images/teach.png');
-    $build['top_image'] = ['#theme' => 'top_image', '#img' => $img];
-    $build['teachers'] = ['#theme' => 'teachers', '#teachers' => array_chunk(load_teachers(), 4)];
+    $build['top_image'] =  ['#theme' => 'top_image', '#img' => $img];
+    $build['teachers'] =  ['#theme' => 'teachers', '#teachers' => array_chunk(load_teachers(), 4)];
     return $build;
 }

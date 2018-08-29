@@ -1,4 +1,5 @@
 <div class="fh5co-loader"></div>
+
 <div id="page">
     <nav class="fh5co-nav" role="navigation">
         <div class="top">
@@ -16,7 +17,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-2">
-                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>ZMDG<span>.</span></a></div>
+                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>最美的光</a></div>
                     </div>
                     <div class="col-xs-10 text-right menu-1">
                             <?php print render($primary_nav); ?>
@@ -143,7 +144,7 @@
 
 
 
-    <footer id="fh5co-footer" role="contentinfo">
+    <footer id="fh5co-footer" role="contentinfo" style="background-image: url(<?=$theme_path?>/images/img_bg_4.jpg);">
         <div class="overlay"></div>
         <div class="container">
 
@@ -172,4 +173,4 @@
 <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 </div>
-	
+<?php render($page['content']['metatags']); ?>

@@ -45,7 +45,7 @@ $signPackage = $jssdk->GetSignPackage();
             <a href="#skills">技能效果</a>
         </li>
         <li>
-            <a href="/enroll" class="no-scroll">报名咨询</a>
+            <a href="#contact">报名咨询</a>
         </li>
     </ul>
 </header>
@@ -54,8 +54,7 @@ $signPackage = $jssdk->GetSignPackage();
 <div id="lead">
     <div id="lead-content">
         <h1>潍坊首家少儿编程培训机构</h1>
-        <h2>最美的光</h2>
-        <a href="/enroll" class="btn-rounded-white">马上报名，免费试学</a>
+        <br>
     </div>
     <!-- End #lead-content -->
 
@@ -81,7 +80,7 @@ $signPackage = $jssdk->GetSignPackage();
                     Facebook创始人扎克伯格从六年级开始学习编程，打败人类围棋顶尖高手李世石的AlphaGo的缔造者、谷歌人工智能设计师杰米斯，也从8岁就开始喜欢上编程了。美国总统奥巴马连续两年亲自为活动“编程一小时”站台，支持孩子学习计算机编程。
                     在美国，在这样一群技术大牛带动之下的计算机编程浪潮里，学习编程已经成为少年甚至幼儿园小朋友的一种时尚之选。
                     <br>
-                    <strong>在这个日益数字化的世界别让孩子因为无知而在数字化的世界里畏首畏脚，步履蹒跚！</strong>
+                    <strong>在这个日益数字化的世界，别让孩子输在起跑线上！更别让孩子因为无知而在数字化的世界里畏首畏脚，步履蹒跚！</strong>
                 </p>
             </div>
         </div>
@@ -165,7 +164,9 @@ $signPackage = $jssdk->GetSignPackage();
             <h3>咏春拳</h3>
             <h4>请不要担心孩子身体问题</h4>
             <p>
-                对着电脑沉迷游戏？眼睛不好？孩子可以学到正宗佛山咏春拳，矫正脊柱，防止侧弯和变形。劳逸结合，快乐学习。
+                对着电脑沉迷游戏？眼睛不好？那是因为没有科学的教学方式。 因为我们会<a href="https://baike.baidu.com/item/%E5%92%8F%E6%98%A5%E6%8B%B3/392485?fr=aladdin">咏春</a>。
+                咏春拳会矫正少儿脊柱，防止侧弯和变形。劳逸结合，快乐学习。
+                重要的事再说一遍：<strong>我们是正宗佛山咏春，是有传承的</strong>。
             </p>
         </div>
     </div>
@@ -185,8 +186,8 @@ $signPackage = $jssdk->GetSignPackage();
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
-        <li>C语言编程</li>
-        <li>Python编程</li>
+        <li>C语言</li>
+        <li>Python</li>
 
     </ul>
 </div>
@@ -195,14 +196,12 @@ $signPackage = $jssdk->GetSignPackage();
 <div id="contact">
     <h2>联系我们</h2>
     <div id="contact-form">
-        <div class="des">
-            地址： 潍坊市东风街潍州路东北角西部证券四楼
-            <br/>
-            咨询电话：
-            <a href="tel:17763181919">17763181919</a>
-
-        </div>
-
+        <form method="POST">
+            <div class="des">
+                咨询电话：
+                <a href="tel:17763181919">17763181919</a>
+            </div>
+        </form>
     </div>
     <!-- End #contact-form -->
 </div>
@@ -229,7 +228,7 @@ $signPackage = $jssdk->GetSignPackage();
 
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="<?=$theme_url?>/programme/js/scripts.min.js"></script>
-<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script>
     wx.config({
         debug: false,
@@ -246,10 +245,10 @@ $signPackage = $jssdk->GetSignPackage();
     wx.ready(function () {
         // 在这里调用 API
         wx.onMenuShareAppMessage({
-            title: '别玩手机了，来学编程吧', // 分享标题
-            desc: '潍坊市区少儿编程免费体验，了解一下！', // 分享描述
-            link: 'http://edu.xiaobenup.com/node/1', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-            imgUrl: '<?=$theme_url?>/programme/images/coding-for-kids-v3.png', // 分享图标
+            title: '学编程，还能学咏春', // 分享标题
+            desc: '孩子们，别玩手机了，来学编程吧，还能机会学到正宗咏春拳！', // 分享描述
+            link: 'http://edu.xiaobenup.com', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'http://edu.xiaobenup.com/images/coding-for-kids-v3.png', // 分享图标
             type: 'link', // 分享类型,music、video或link，不填默认为link
             dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
             success: function () {
@@ -261,9 +260,9 @@ $signPackage = $jssdk->GetSignPackage();
         });
 
         wx.onMenuShareTimeline({
-            title: '潍坊市区少儿编程免费体验，了解一下！', // 分享标题
-            link: 'http://edu.xiaobenup.com/node/1', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-            imgUrl: '<?=$theme_url?>/programme/images/coding-for-kids-v3.png', // 分享图标
+            title: '孩子们，别玩手机了，来学编程吧！', // 分享标题
+            link: 'http://edu.xiaobenup.com', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'http://edu.xiaobenup.com/images/coding-for-kids-v3.png', // 分享图标
             success: function () {
                 // 用户确认分享后执行的回调函数
             }

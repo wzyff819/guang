@@ -18,9 +18,9 @@ function guang_preprocess_html(&$var)
 
 function guang_preprocess_page(&$var)
 {
-    $var['theme_url'] = file_create_url(drupal_get_path('theme', 'guang'));
 
     $var['theme_path'] = drupal_get_path('theme', 'guang');
+    $var['theme_url'] = file_create_url(drupal_get_path('theme', 'guang'));
 
     if(drupal_is_front_page())
     {

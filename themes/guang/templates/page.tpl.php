@@ -92,7 +92,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-2">
-                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>ZMDG<span>.</span></a></div>
+                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>最美的光</a></div>
                     </div>
                     <div class="col-xs-10 text-right menu-1">
                         <?php print render($primary_nav); ?>
@@ -103,7 +103,7 @@
         </div>
     </nav>
 
- <div class="container">
+    <div class="container">
 
 
   <div class="row">
@@ -149,29 +149,30 @@
 
 </div>
 
-    <footer id="fh5co-footer"  style="padding:3em 0;background-image: url(<?=$theme_url?>/images/img_bg_4.jpg);">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row copyright">
-                <div class="col-md-12 text-center">
-                    <p>
-                        &copy; 2018 最美的光-潍坊编程培训 版权所有
-                    </p>
-                    <p>
-                        <small class="block">地址：东风街潍州路交叉口东北角西部证券四楼</small>
-                    </p>
-                    <p>
-                        <small class="block">电话： <a href="tel:17763181919">17763181919</a></small>
-
-                    </p>
-                    <p>
-                        <small class="block">技术支持 <a href="https://xiaobenup.com">小奔信息科技</a>
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </footer>
 
 </div>
 
+<footer id="fh5co-footer"  style="padding:3em 0;background-image: url(<?=$theme_path?>/images/img_bg_4.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+
+        <div class="row copyright">
+            <div class="col-md-12 text-center">
+                <p>
+                    &copy; 2018 最美的光-潍坊编程培训 版权所有
+                </p>
+                <p>
+                    <small class="block">地址：东风街潍州路交叉口东北角西部证券四楼</small>
+                </p>
+                <p>
+                    <small class="block">电话： <a href="tel:17763181919">17763181919</a></small>
+
+                </p>
+                <p>
+                    <small class="block">技术支持 <a href="https://xiaobenup.com">小奔信息科技</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</footer>

@@ -30,6 +30,7 @@ body {
 }
 .offcanvas #page {
   overflow: hidden;
+  position: absolute;
 }
 .offcanvas #page:after {
   -webkit-transition: 2s;
