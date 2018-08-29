@@ -1,0 +1,10 @@
+name = 光
+description = 光
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2018-02-12
+version = "7.x-3.11"
+core = "7.x"
+project = "ZuiMeiDeGuang"
+datestamp = "1518404594"
+

@@ -1,0 +1,212 @@
+<?php
+
+function load_courses()
+{
+    return node_load_multiple([], ['type' => 'courses']);
+}
+
+function load_teachers()
+{
+    return node_load_multiple([], ['type' => 'teachers']);
+}
+
+function load_price()
+{
+    $price = [
+        [
+            'title' => '编程试课',
+            'price' => 0,
+            'count' => 4,
+            'des' => [
+                '计算机文化基础',
+                '网页编程',
+//                'Scratch编程',
+//                'Python编程',
+//                'C语言编程',
+            ]
+        ],
+
+
+        [
+            'title' => '咏春拳试课',
+            'price' => 0,
+            'count' => 4,
+            'des' => [
+                '咏春拳原理',
+                '咏春拳小念头与格斗技法',
+            ]
+        ],
+
+
+        [
+
+            'title' => '编程初级班',
+            'price' => 2600,
+            'count' => 24,
+            'des' => [
+                '计算机文化基础',
+                '网页编程与Scratch编程任选一种',
+            ]
+        ],
+
+        [
+
+            'title' => '编程中级班',
+            'price' => 3000,
+            'count' => 28,
+            'des' => [
+                '计算机文化基础',
+                '初级班任选一种深入学习',
+            ],
+        ],
+
+
+        [
+
+            'title' => '高级班-C语言编程',
+            'price' => 4000,
+            'count' => 46,
+            'des' => [
+                '计算机文化基础',
+                'C语言编程实战，计算机二级考试',
+            ],
+        ],
+
+        [
+
+            'title' => '高级班-Python编程',
+            'price' => 2500,
+            'count' => 24,
+            'des' => [
+                '计算机文化基础',
+                'Python编程实战',
+            ],
+        ],
+
+    ];
+
+
+    return array_chunk($price, 3);
+}
+
+function zmdg_node_load($nodes, $types)
+{
+    // Decide whether any of $types are relevant to our purposes.
+    if (count(array_intersect(['courses', 'teachers'], $types))) {
+        foreach ($nodes as $node) {
+            $node->img = file_create_url($node->field_img['und'][0]['uri']);
+            $node->field_summery = $node->body['und'][0]['safe_summary'];
+            $node->field_body = $node->body['und'][0]['safe_value'];
+            $node->uri = url(node_uri($node)['path']);
+        }
+    }
+}
+
+
+function zmdg_menu()
+{
+    $items['courses'] = array(
+        'title' => '课程',
+        'page callback' => 'courses',
+        'access arguments' => array('access content'),
+        'type' => MENU_NORMAL_ITEM,
+        'menu_name' => 'main-menu'
+    );
+    $items['teachers'] = array(
+        'title' => '师资',
+        'page callback' => 'teachers',
+        'access arguments' => array('access content'),
+        'menu_name' => 'main-menu',
+        'type' => MENU_NORMAL_ITEM,
+    );
+
+    $items['enroll'] = [
+        'title' => '报名',
+        'page callback' => 'enroll',
+        'access arguments' => array('access content'),
+        'menu_name' => 'main-menu',
+        'type' => MENU_NORMAL_ITEM,
+    ];
+
+    return $items;
+}
+
+function enroll()
+{
+    if($_POST)
+    {
+
+       if(db_insert('enroll')->fields($_POST)
+            ->execute())
+       {
+
+           $build = ['#markup' => '<div style="margin-bottom: 19px"><p>恭喜您报名成功</p><p>请保持手机畅通，客服人员会在48小时之内与您联系。</p></div>'];
+           return $build;
+       }
+
+    }
+    $build = ['#theme' => 'enroll', '#theme_url' => file_create_url(drupal_get_path('theme', 'guang'))];
+    echo render($build);
+}
+
+function zmdg_theme()
+{
+    $path = drupal_get_path('module', 'zmdg');
+    return [
+        'courses' => [
+            'variables' => ['courses' => null],
+            'path' => $path . '/tpl',
+            'template' => 'courses',
+        ],
+
+        'teachers' => [
+            'variables' => ['teachers' => null],
+            'path' => $path . '/tpl',
+            'template' => 'teachers',
+        ],
+
+        'top_image' => [
+            'variables' => ['img' => null],
+            'path' => $path . '/tpl',
+            'template' => 'course_top_img'
+        ],
+
+        'enroll' => [
+            'variables' => ['theme_url' => null],
+            'path' => $path . '/tpl',
+            'template' => 'enroll'
+        ],
+    ];
+
+}
+
+
+function zmdg_is_teachers_page()
+{
+    if ($_GET['q'] == 'teachers') return true;
+    return false;
+}
+
+function zmdg_is_courses_page()
+{
+    if ($_GET['q'] == 'courses') return true;
+    return false;
+}
+
+function courses()
+{
+
+    $img = file_create_url('public://images/course.jpg');
+    $build['top_image'] = ['#theme' => 'top_image', '#img' => $img];
+    $build['courses'] = ['#theme' => 'courses', '#courses' => load_courses()];
+    return $build;
+
+}
+
+function teachers()
+{
+    $img = file_create_url('public://images/teach.png');
+    $build['top_image'] = ['#theme' => 'top_image', '#img' => $img];
+    $build['teachers'] = ['#theme' => 'teachers', '#teachers' => array_chunk(load_teachers(), 4)];
+    return $build;
+}
