@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
                 <h2>课程</h2>
-                <p>一张一弛，文武之道。编程和咏春，让孩子有聪明的大脑和强健的体魄。</p>
+                <p>潍坊有没有小孩子学编程的地方？我们来了！一张一弛，文武之道。编程和咏春，让孩子有聪明的大脑和强健的体魄。</p>
             </div>
         </div>
         <div class="row">
