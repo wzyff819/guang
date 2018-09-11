@@ -16,10 +16,10 @@
         <div class="top-menu">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-2">
-                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>潍坊编程</a></div>
+                    <div class="col-xs-4">
+                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>潍坊青少年编程</a></div>
                     </div>
-                    <div class="col-xs-10 text-right menu-1">
+                    <div class="col-xs-6 text-right menu-1">
                             <?php print render($primary_nav); ?>
                     </div>
                 </div>
