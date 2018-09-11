@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-right">
-                        <p class="site"><a href="/" style="color:#828282">潍坊首家少儿编程机构-最美的光</a></p>
+                        <p class="site"><a href="/" style="color:#828282">潍坊首家少儿编程培训-最美的光</a></p>
                         <p class="num">电话：<a  style="color:rgba(0, 0, 0, 0.6)" href="tel:17763181919">17763181919</a></p>
 
                     </div>
@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-2">
-                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>潍坊少儿编程培训</a></div>
+                        <div id="fh5co-logo"><a href="/"><i class="icon-study"></i>潍坊小孩子学编程</a></div>
                     </div>
                     <div class="col-xs-10 text-right menu-1">
                             <?php print render($primary_nav); ?>
