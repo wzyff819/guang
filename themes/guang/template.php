@@ -24,7 +24,6 @@ function guang_preprocess_page(&$var)
 
     if(drupal_is_front_page())
     {
-        drupal_set_title("潍坊首家少儿编程培训机构，欢迎咨询");
         $image_path = file_create_url('public://images');
 
         $var['top']  = [
