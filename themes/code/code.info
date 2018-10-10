@@ -1,0 +1,35 @@
+name = 最美的光主题
+description = 最美的光主题
+
+core = 7.x
+php = 5.3.0
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+
+stylesheets[all][] = css/style.css
+
+
+scripts[] = js/amazeui.min.js
+scripts[] = js/jqthumb.min.js
+scripts[] = js/jquery.validate.js
+scripts[] = js/main.js

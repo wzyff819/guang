@@ -52,7 +52,7 @@
             </ul>
         </div>
     </aside>
-
+    <?php var_dump($courses);exit;?>
     <?php print render($courses);?>
 
 

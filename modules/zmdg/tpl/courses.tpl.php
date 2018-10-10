@@ -1,26 +1,89 @@
-<div id="fh5co-course">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                <h2>课程</h2>
-                <p>潍坊有没有小孩子学编程的地方？我们来了！一张一弛，文武之道。编程和咏春，让孩子有聪明的大脑和强健的体魄。</p>
-            </div>
+<section class="hp-curse-box">
+    <div class="page-common-title">
+        <em>Course system</em>
+        <h3>课程体系</h3>
+        <?php if ($description): ?><p>
+            翼橙团队深知英语和数学的重要性，
+            课程会反复向学生讲述这两门学科的重要知识，并通过计算机编程加以运用。
+            让学生在学习编程的过程中，培养学生优秀的学习惯，提高其他科目的学习能力，一箭三雕。
+            强健的体魄是一切的基础，因此我们设立了<a href="https://baike.baidu.com/item/%E5%92%8F%E6%98%A5%E6%8B%B3/392485?fr=aladdin">咏春拳</a>班，
+            免费教授咏春拳，让孩子知识和身体素质同时提高。
+        </p><?php endif; ?>
+    </div>
+    <div class="curse-content tab-click">
+        <div class="curse-type-box">
+            <ul class="curse-type-list tab-menu clearfix">
+                <li class="curr">基础课程体系</li>
+                <li>专项课题</li>
+            </ul>
         </div>
-        <div class="row">
-            <?php foreach ($courses as $node):?>
-                <div class="col-md-6">
-                    <div class="course">
-                        <a href="<?=$node->uri?>" class="course-img" style="background-image: url(<?=$node->img?>);">
+        <div class="curse-details-content">
+            <div class="curse-item-group tab-content">
+                <ul class="curse-brief-list clearfix">
+                    <li>
+                        <a href="/courses/primary">
+                            <h5>初级</h5>
+                            <p>
+                                Python或C作为入门语言，了解什么是代码，为后续学习打下坚实基础。 </p>
+                            <span class="angle-logo"></span>
+                            <span class="number">1</span>
                         </a>
-                        <div class="desc">
-                            <h3><a href="<?=$node->uri?>"><?=$node->title?></a></h3>
-                            <p><?=$node->field_summery?></p>
-                            <span><a href="<?=$node->uri?>" class="btn btn-primary btn-sm btn-course">我要学</a></span>
-                        </div>
-                    </div>
-                </div>
+                    </li>
+                    <li>
+                        <a href="/courses/middle">
+                            <h5>中级</h5>
+                            <p>
+                               面向对象学习，编程的精髓。教给孩子不一样的思维方式。 </p>
+                            <span class="angle-logo"></span>
+                            <span class="number">2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/courses/advance">
+                            <h5>进阶</h5>
+                            <p>
+                                根据兴趣定制方向，例如人工智能、高数建模、计算机算法、数据分析等。 </p>
+                            <span class="angle-logo"></span>
+                            <span class="number">3</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-            <?php endforeach;?>
+            <div class="curse-item-group tab-content">
+                <ul class="curse-brief-list clearfix">
+                    <li>
+                        <a href="/courses/website">
+                            <h5>网页制作</h5>
+                            <p>
+                                制作学生自己的专属网页和班级网页，培训兴趣和自信心。 </p>
+                            <span class="angle-logo"></span>
+                            <span class="number">1</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/courses/crawler">
+                            <h5>网络爬虫速学及应用</h5>
+                            <p>
+                                像虫子一样爬取网站内容，并分析结果，迅速提高学生思维方式和编码水平 </p>
+                            <span class="angle-logo"></span>
+                            <span class="number">2</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </div>
-</div>
+    <div class="curse-more-link">
+        <ul class="more-link-list clearfix">
+            <li>
+                <a href="/courses">了解更多</a>
+            </li>
+            <li>
+                <a href="/contact">免费试听</a>
+            </li>
+        </ul>
+    </div>
+</section>
