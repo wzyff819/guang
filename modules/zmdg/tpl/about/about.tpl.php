@@ -12,6 +12,6 @@
             </ul>
         </div>
         <div class="about-img"><img alt="关于翼橙"
-                                    src="<?php print $image_path;?>/logo.png"></div>
+                                    src="<?php print $image_path;?>/20170420094130309.png"></div>
     </div>
 </section>

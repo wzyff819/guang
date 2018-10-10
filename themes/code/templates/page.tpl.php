@@ -36,7 +36,7 @@
 <!-- banner -->
 <section class="common-banner-box">
     <div class="banner-bg jqthumb">
-        <img src="<?php print $theme_path;?>/common_banner_bg.jpg" alt="" />
+        <img src="<?php print $image_path;?>/common_banner_bg.jpg" alt="" />
     </div>
     <div class="banner-text">
         <div>
