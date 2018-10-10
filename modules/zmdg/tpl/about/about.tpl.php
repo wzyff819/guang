@@ -1,3 +1,4 @@
+<?php $image_path = file_create_url('public://images');?>
 <section class="about-page-brief">
     <div class="about-school-brief clearfix">
         <div class="about-brief-box"><span class="en-title">About YiCheng</span><h4>关于翼橙</h4>

@@ -1,3 +1,5 @@
+<?php $image_path = file_create_url('public://images');?>
+
 <!-- server mian product -->
 <section class="about-page-service">
     <div class="service-product-content">
