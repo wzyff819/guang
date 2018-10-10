@@ -2,7 +2,7 @@
 <section class="about-page-service">
     <div class="service-product-content">
         <div class="service-product-brief clearfix">
-            <div class="brief-img jqthumb"><img alt="主要产品及服务" src="http://www.codingmarch.com/uploadfile/2017/0616/20170616054839423.jpg" /></div>
+            <div class="brief-img jqthumb"><img alt="主要产品及服务" src="<?php print $image_path;?>/20170616054839423.jpg" /></div>
             <div class="brief-text-box">
                 <div class="text-title"><span>about march</span>
                     <h4>主要产品及服务</h4>

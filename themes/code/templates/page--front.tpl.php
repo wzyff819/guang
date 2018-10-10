@@ -204,7 +204,7 @@
             </div>
         </div>
         <div class="about-img">
-            <img src="http://www.codingmarch.com/uploadfile/2017/0420/20170420094130309.png" alt="关于码趣">
+            <img src="<?php print $image_path;?>/20170420094130309.png" alt="关于翼橙">
         </div>
     </div>
 
