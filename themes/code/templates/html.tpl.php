@@ -61,11 +61,11 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-    <script src="http://at.alicdn.com/t/font_pe2xlha14fv42t9.js"></script>
+    <script src="https://at.alicdn.com/t/font_pe2xlha14fv42t9.js"></script>
     <!--[if lt IE 9]>
-    <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
-    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-    <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="https://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+    <script src="https://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
     <?php print $scripts;?>
 </head>
