@@ -10,9 +10,9 @@
                 <span class="iconfont"></span>
                 <span><?php echo $mobile;?></span>
             </div>
-            <h2 class="head-title">
-                <a href="/">翼橙-让编程更容易</a>
-            </h2>
+            <h1 class="head-title">
+                <a href="/">潍坊翼橙少儿编程教育-潍坊首家青少年编程培训机构</a>
+            </h1>
             <nav class="header-nav" style="max-height: 293px;">
                 <?php print theme('links__system_main_menu', array(
                     'links' => $main_menu,
@@ -186,8 +186,8 @@
 <section class="hp-about-box">
     <div class="about-content clearfix">
         <div class="about-brief-box">
-            <span class="en-title">About march</span>
-            <h4>关于码趣</h4>
+            <span class="en-title">About YiCheng</span>
+            <h4>关于翼橙</h4>
             <p>
                 翼橙(YiCheng)，是潍坊首家少儿编程培训机构，由互联网从业十年的团队创办。有丰富的开发和培训经验。
                 致力于让潍坊青少年认识到英语和数学的重要性，学会真正的编程技能，扫清未来的道路上因不会编程而遇到的阻碍！

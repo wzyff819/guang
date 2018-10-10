@@ -11,6 +11,6 @@
             </ul>
         </div>
         <div class="about-img"><img alt="关于翼橙"
-                                    src="http://www.codingmarch.com/uploadfile/2017/0420/20170420094130309.png"></div>
+                                    src="<?php print $image_path;?>/logo.png"></div>
     </div>
 </section>

@@ -10,9 +10,7 @@
                 <span class="iconfont"></span>
                 <span><?php print $mobile;?></span>
             </div>
-            <h2 class="head-title">
-                <a href="http://www.codingmarch.com">码趣学院</a>
-            </h2>
+
             <nav class="header-nav" style="max-height: 293px;">
                 <?php print theme('links__system_main_menu', array(
                     'links' => $main_menu,
