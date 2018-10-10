@@ -307,6 +307,7 @@
 <!-- case end -->
 
 
+
 <footer class="footer-box clearfix">
     <div class="footer-about">
         <div class="about-content">
@@ -315,7 +316,7 @@
             </div>
             <div class="about-brief">
                 <div class="logo-box">
-                    <img src="http://www.codingmarch.com/uploadfile/2017/0419/20170419095315864.png" alt="http://www.codingmarch.com">
+                    <img src="<?php echo $image_path;?>/logo.png" alt="http://www.zuimeideguang.com">
                 </div>
                 <p>
                     小奔科技有限公司旗下的翼橙编程教育，致力于提高潍坊青少年编程认知，并教会他们如何用程序思考和解决问题。</p>
