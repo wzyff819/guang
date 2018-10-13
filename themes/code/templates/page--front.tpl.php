@@ -2,7 +2,7 @@
     <div class="header-content">
         <a href="/" class="header-logo" target="_blank">
             <div class="logo">
-                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程-翼橙编程培训">
+                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程,潍坊小孩子学编程，潍坊孩子编程培训">
             </div>
         </a>
         <div class="header-nav-box">
@@ -189,7 +189,7 @@
             <span class="en-title">About YiCheng</span>
             <h4>关于翼橙</h4>
             <p>
-                翼橙(YiCheng)，是潍坊首家少儿编程培训机构，由互联网从业十年的团队创办。有丰富的开发和培训经验。
+                翼橙(YiCheng)，是<storng>潍坊首家少儿编程培训机构</storng>，由互联网从业十年的团队创办。有丰富的开发和培训经验。
                 致力于让潍坊青少年认识到英语和数学的重要性，学会真正的编程技能，扫清未来的道路上因不会编程而遇到的阻碍！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
@@ -317,7 +317,8 @@
             <div class="about-brief">
 
                 <p>
-                    小奔科技有限公司旗下的翼橙编程教育，致力于提高潍坊青少年编程认知，并教会他们如何用程序思考和解决问题。</p>
+                    小奔科技有限公司旗下的潍坊翼橙少儿编程教育，
+                    致力于提高潍坊青少年编程认知，并教会他们如何用程序思考和解决问题。</p>
             </div>
         </div>
     </div>
