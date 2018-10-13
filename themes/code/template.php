@@ -101,7 +101,7 @@ function code_preprocess_page(&$var)
     $var['theme_url'] = file_create_url(drupal_get_path('theme', 'code'));
     $var['address'] = '东风街潍州路交叉口东北角西部证券四楼';
     $var['wechat'] = '17763181919';
-    $var['mobile'] = '<a tel="17763181919">17763181919</a>';
+    $var['mobile'] = '<a href="tel:17763181919">17763181919</a>';
     $var['image_path'] = file_create_url('public://images');
 
     if(drupal_is_front_page())
