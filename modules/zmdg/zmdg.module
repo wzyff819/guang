@@ -132,21 +132,6 @@ function zmdg_menu()
     );
 
 
-    $items['course/%'] = array(
-        'title' => '师资',
-        'page callback' => 'teachers',
-        'access arguments' => array('access content'),
-        'menu_name' => 'main-menu',
-        'type' => MENU_NORMAL_ITEM,
-    );
-
-    $items['teachers'] = array(
-        'title' => '师资',
-        'page callback' => 'teachers',
-        'access arguments' => array('access content'),
-        'menu_name' => 'main-menu',
-        'type' => MENU_NORMAL_ITEM,
-    );
 
     return $items;
 }
