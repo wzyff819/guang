@@ -63,7 +63,7 @@
     </div>
 </section>
 
-<section class="yc-fast-signup">
+<section class="hp-fast-signup">
     <div class="fast-signup-box">
         <div class="fast-signup clearfix">
             <div class="link-btn-box">
@@ -97,7 +97,7 @@
 </section>
 
 
-<section class="yc-why-study">
+<section class="hp-why-study">
     <div class="page-common-title">
         <em>Why teenagers learn programming</em>
         <h3>为什么要在中小学时期学习编程</h3>
@@ -183,7 +183,7 @@
 </section>
 
 
-<section class="yc-about-box">
+<section class="hp-about-box">
     <div class="about-content clearfix">
         <div class="about-brief-box">
             <span class="en-title">About YiCheng</span>
@@ -214,7 +214,7 @@
 <?php print render($courses); ?>
 
 <!-- case -->
-<section class="yc-case-box">
+<section class="hp-case-box">
     <div class="case-content">
         <div class="case-list clearfix" id="partner_list">
             <div>
