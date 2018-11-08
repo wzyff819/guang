@@ -1880,14 +1880,14 @@ hr {
     }
 }
 
-.hp-banner-box {
+.yc-banner-box {
     width: 100%;
     position: relative;
     background: #f9f9f9;
     overflow: hidden
 }
 
-.hp-banner-box .slider-mask {
+.yc-banner-box .slider-mask {
     background: #fff;
     text-align: center;
     height: 100%;
@@ -1899,7 +1899,7 @@ hr {
     z-index: 99
 }
 
-.hp-banner-box .slider-mask img {
+.yc-banner-box .slider-mask img {
     display: block;
     width: 30px;
     height: 30px;
@@ -1911,7 +1911,7 @@ hr {
     margin: auto
 }
 
-.hp-banner-box .am-slides > li {
+.yc-banner-box .am-slides > li {
     display: none;
     width: 100%;
     height: 620px;
@@ -1921,11 +1921,11 @@ hr {
     overflow: hidden
 }
 
-.hp-banner-box .am-slides > li:first-child {
+.yc-banner-box .am-slides > li:first-child {
     display: block
 }
 
-.hp-banner-box .am-slides > li .thumb {
+.yc-banner-box .am-slides > li .thumb {
     width: 100%;
     position: absolute;
     top: 0;
@@ -1934,11 +1934,11 @@ hr {
     right: 0
 }
 
-.hp-banner-box .am-direction-nav {
+.yc-banner-box .am-direction-nav {
     display: block
 }
 
-.hp-banner-box .am-direction-nav a {
+.yc-banner-box .am-direction-nav a {
     position: absolute;
     top: 50%;
     z-index: 9;
@@ -1961,26 +1961,26 @@ hr {
     background: #fff
 }
 
-.hp-banner-box .am-direction-nav a:hover {
+.yc-banner-box .am-direction-nav a:hover {
     background: #ffc501;
     color: #fff
 }
 
-.hp-banner-box .am-direction-nav a .iconfont {
+.yc-banner-box .am-direction-nav a .iconfont {
     display: block;
     text-align: center;
     font-size: 14px
 }
 
-.hp-banner-box .am-direction-nav .am-prev {
+.yc-banner-box .am-direction-nav .am-prev {
     left: 40px
 }
 
-.hp-banner-box .am-direction-nav .am-next {
+.yc-banner-box .am-direction-nav .am-next {
     right: 40px
 }
 
-.hp-banner-box .am-control-nav {
+.yc-banner-box .am-control-nav {
     width: 100%;
     position: absolute;
     bottom: 10px;
@@ -1988,7 +1988,7 @@ hr {
     text-align: center
 }
 
-.hp-banner-box .am-control-nav li {
+.yc-banner-box .am-control-nav li {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -2010,31 +2010,31 @@ hr {
     transition: all .3s linear
 }
 
-.hp-banner-box .am-control-nav li:hover {
+.yc-banner-box .am-control-nav li:hover {
     background: #ffc501;
     border-color: transparent
 }
 
-.hp-banner-box .am-control-nav .am-active {
+.yc-banner-box .am-control-nav .am-active {
     background: #ffc501;
     border-color: transparent;
     background-clip: content-box
 }
 
-.hp-banner-box .banner-content1 {
+.yc-banner-box .banner-content1 {
     display: table;
     width: 100%;
     height: 100%;
     padding: 0 18%
 }
 
-.hp-banner-box .banner-content1 .ele-animation {
+.yc-banner-box .banner-content1 .ele-animation {
     display: table-cell;
     vertical-align: middle;
     color: #fff
 }
 
-.hp-banner-box .banner-content1 .ele-animation .border-text {
+.yc-banner-box .banner-content1 .ele-animation .border-text {
     display: block;
     width: 150px;
     height: 40px;
@@ -2052,23 +2052,23 @@ hr {
     text-transform: uppercase
 }
 
-.hp-banner-box .banner-content1 .ele-animation .border-text .iconfont {
+.yc-banner-box .banner-content1 .ele-animation .border-text .iconfont {
     font-size: 12px;
     margin-left: 10px
 }
 
-.hp-banner-box .banner-content1 .ele-animation p {
+.yc-banner-box .banner-content1 .ele-animation p {
     font-size: 36px;
     font-weight: 100;
     margin-top: 20px
 }
 
-.hp-banner-box .banner-content1 .ele-animation small {
+.yc-banner-box .banner-content1 .ele-animation small {
     display: block;
     margin-top: 10px
 }
 
-.hp-banner-box .banner-content1 .ele-animation .more-btn {
+.yc-banner-box .banner-content1 .ele-animation .more-btn {
     display: block;
     width: 200px;
     height: 40px;
@@ -2088,12 +2088,12 @@ hr {
     margin-top: 40px
 }
 
-.hp-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
+.yc-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
     display: inline;
     margin-left: 5px
 }
 
-.hp-banner-box .banner-content1 .ele-animation .more-btn:hover {
+.yc-banner-box .banner-content1 .ele-animation .more-btn:hover {
     -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -2104,39 +2104,39 @@ hr {
     transform: translate(0, -10px)
 }
 
-.hp-banner-box .banner-content2 {
+.yc-banner-box .banner-content2 {
     display: table;
     width: 100%;
     height: 100%;
     padding: 0 18%
 }
 
-.hp-banner-box .banner-content2 .ele-animation {
+.yc-banner-box .banner-content2 .ele-animation {
     display: table-cell;
     vertical-align: middle;
     color: #fff;
     text-align: center
 }
 
-.hp-banner-box .banner-content2 .ele-animation .border-text {
+.yc-banner-box .banner-content2 .ele-animation .border-text {
     display: block;
     font-family: "edo_szregular";
     font-size: 40px;
     text-transform: uppercase
 }
 
-.hp-banner-box .banner-content2 .ele-animation p {
+.yc-banner-box .banner-content2 .ele-animation p {
     font-size: 28px;
     font-weight: 100;
     margin-top: 20px
 }
 
-.hp-banner-box .banner-content2 .ele-animation small {
+.yc-banner-box .banner-content2 .ele-animation small {
     display: block;
     margin-top: 10px
 }
 
-.hp-banner-box .banner-content2 .ele-animation .more-btn {
+.yc-banner-box .banner-content2 .ele-animation .more-btn {
     display: block;
     width: 200px;
     height: 40px;
@@ -2152,12 +2152,12 @@ hr {
     margin-top: 40px
 }
 
-.hp-banner-box .banner-content2 .ele-animation .more-btn .iconfont {
+.yc-banner-box .banner-content2 .ele-animation .more-btn .iconfont {
     font-size: 12px;
     margin-left: 10px
 }
 
-.hp-banner-box .banner-content2 .ele-animation .more-btn:hover {
+.yc-banner-box .banner-content2 .ele-animation .more-btn:hover {
     -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -2168,26 +2168,26 @@ hr {
     transform: translate(0, -10px)
 }
 
-.hp-banner-box .banner-content3 {
+.yc-banner-box .banner-content3 {
     display: table;
     width: 100%;
     height: 100%;
     padding: 0 18% 0 52%
 }
 
-.hp-banner-box .banner-content3 .ele-animation {
+.yc-banner-box .banner-content3 .ele-animation {
     display: table-cell;
     vertical-align: middle
 }
 
-.hp-banner-box .banner-content3 .ele-animation .border-text {
+.yc-banner-box .banner-content3 .ele-animation .border-text {
     display: block;
     font-size: 48px;
     font-family: "edo_szregular";
     text-transform: uppercase
 }
 
-.hp-banner-box .banner-content3 .ele-animation p {
+.yc-banner-box .banner-content3 .ele-animation p {
     font-size: 28px;
     font-weight: 100;
     margin-top: 20px;
@@ -2198,7 +2198,7 @@ hr {
     transition-delay: .5s
 }
 
-.hp-banner-box .banner-content3 .ele-animation .line {
+.yc-banner-box .banner-content3 .ele-animation .line {
     display: block;
     width: 50px;
     height: 4px;
@@ -2211,7 +2211,7 @@ hr {
     transition-delay: .7s
 }
 
-.hp-banner-box .banner-content3 .ele-animation small {
+.yc-banner-box .banner-content3 .ele-animation small {
     display: block;
     font-size: 16px;
     margin-top: 30px;
@@ -2222,7 +2222,7 @@ hr {
     transition-delay: 1s
 }
 
-.hp-banner-box .banner-content3 .ele-animation .more-btn {
+.yc-banner-box .banner-content3 .ele-animation .more-btn {
     display: block;
     width: 200px;
     height: 40px;
@@ -2242,12 +2242,12 @@ hr {
     margin-top: 40px
 }
 
-.hp-banner-box .banner-content3 .ele-animation .more-btn .iconfont {
+.yc-banner-box .banner-content3 .ele-animation .more-btn .iconfont {
     display: inline;
     margin-left: 5px
 }
 
-.hp-banner-box .banner-content3 .ele-animation .more-btn:hover {
+.yc-banner-box .banner-content3 .ele-animation .more-btn:hover {
     -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -2259,11 +2259,11 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-banner-box {
+    .yc-banner-box {
         width: 100%
     }
 
-    .hp-banner-box .am-slides > li {
+    .yc-banner-box .am-slides > li {
         display: none;
         width: 100%;
         height: 51.28205128vw;
@@ -2271,27 +2271,27 @@ hr {
         position: relative
     }
 
-    .hp-banner-box .am-slides > li:first-child {
+    .yc-banner-box .am-slides > li:first-child {
         display: block
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-banner-box {
+    .yc-banner-box {
         width: 100%
     }
 
-    .hp-banner-box .am-slides > li {
+    .yc-banner-box .am-slides > li {
         height: 50.40322581vw
     }
 
-    .hp-banner-box .banner-content1 .ele-animation {
+    .yc-banner-box .banner-content1 .ele-animation {
         display: table-cell;
         vertical-align: middle;
         color: #fff
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .border-text {
+    .yc-banner-box .banner-content1 .ele-animation .border-text {
         display: block;
         width: 150px;
         height: 40px;
@@ -2309,23 +2309,23 @@ hr {
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .border-text .iconfont {
+    .yc-banner-box .banner-content1 .ele-animation .border-text .iconfont {
         font-size: 12px;
         margin-left: 10px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation p {
+    .yc-banner-box .banner-content1 .ele-animation p {
         font-size: 20px;
         font-weight: 400;
         margin-top: 20px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation small {
+    .yc-banner-box .banner-content1 .ele-animation small {
         display: block;
         margin-top: 10px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .more-btn {
+    .yc-banner-box .banner-content1 .ele-animation .more-btn {
         display: block;
         width: 140px;
         height: 34px;
@@ -2345,44 +2345,44 @@ hr {
         margin-top: 20px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
+    .yc-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
         display: inline;
         margin-left: 5px
     }
 
-    .hp-banner-box .banner-content2 {
+    .yc-banner-box .banner-content2 {
         display: table;
         width: 100%;
         height: 100%;
         padding: 0 18%
     }
 
-    .hp-banner-box .banner-content2 .ele-animation {
+    .yc-banner-box .banner-content2 .ele-animation {
         display: table-cell;
         vertical-align: middle;
         color: #fff;
         text-align: center
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .border-text {
+    .yc-banner-box .banner-content2 .ele-animation .border-text {
         display: block;
         font-family: "edo_szregular";
         font-size: 30px;
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content2 .ele-animation p {
+    .yc-banner-box .banner-content2 .ele-animation p {
         font-size: 20px;
         font-weight: 100;
         margin-top: 20px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation small {
+    .yc-banner-box .banner-content2 .ele-animation small {
         display: block;
         margin-top: 10px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .more-btn {
+    .yc-banner-box .banner-content2 .ele-animation .more-btn {
         display: block;
         width: 200px;
         height: 40px;
@@ -2398,12 +2398,12 @@ hr {
         margin-top: 40px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .more-btn .iconfont {
+    .yc-banner-box .banner-content2 .ele-animation .more-btn .iconfont {
         font-size: 12px;
         margin-left: 10px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .more-btn:hover {
+    .yc-banner-box .banner-content2 .ele-animation .more-btn:hover {
         -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -2414,26 +2414,26 @@ hr {
         transform: translate(0, -10px)
     }
 
-    .hp-banner-box .banner-content3 {
+    .yc-banner-box .banner-content3 {
         display: table;
         width: 100%;
         height: 100%;
         padding: 0 18% 0 52%
     }
 
-    .hp-banner-box .banner-content3 .ele-animation {
+    .yc-banner-box .banner-content3 .ele-animation {
         display: table-cell;
         vertical-align: middle
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .border-text {
+    .yc-banner-box .banner-content3 .ele-animation .border-text {
         display: block;
         font-size: 30px;
         font-family: "edo_szregular";
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content3 .ele-animation p {
+    .yc-banner-box .banner-content3 .ele-animation p {
         font-size: 20px;
         font-weight: 100;
         margin-top: 20px;
@@ -2444,7 +2444,7 @@ hr {
         transition-delay: .5s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .line {
+    .yc-banner-box .banner-content3 .ele-animation .line {
         display: block;
         width: 50px;
         height: 4px;
@@ -2457,7 +2457,7 @@ hr {
         transition-delay: .7s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation small {
+    .yc-banner-box .banner-content3 .ele-animation small {
         display: block;
         font-size: 14px;
         margin-top: 30px;
@@ -2468,7 +2468,7 @@ hr {
         transition-delay: 1s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .more-btn {
+    .yc-banner-box .banner-content3 .ele-animation .more-btn {
         display: block;
         width: 200px;
         height: 40px;
@@ -2488,12 +2488,12 @@ hr {
         margin-top: 40px
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .more-btn .iconfont {
+    .yc-banner-box .banner-content3 .ele-animation .more-btn .iconfont {
         display: inline;
         margin-left: 5px
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .more-btn:hover {
+    .yc-banner-box .banner-content3 .ele-animation .more-btn:hover {
         -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -2506,27 +2506,27 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    .hp-banner-box {
+    .yc-banner-box {
         width: 100%
     }
 
-    .hp-banner-box .am-slides > li {
+    .yc-banner-box .am-slides > li {
         height: 50.40322581vw
     }
 
-    .hp-banner-box .am-direction-nav {
+    .yc-banner-box .am-direction-nav {
         display: block
     }
 
-    .hp-banner-box .am-direction-nav .am-prev {
+    .yc-banner-box .am-direction-nav .am-prev {
         left: 10px
     }
 
-    .hp-banner-box .am-direction-nav .am-next {
+    .yc-banner-box .am-direction-nav .am-next {
         right: 10px
     }
 
-    .hp-banner-box .banner-link-box {
+    .yc-banner-box .banner-link-box {
         max-width: 800px;
         height: 100px;
         margin: 0 auto;
@@ -2534,7 +2534,7 @@ hr {
         z-index: 2
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box {
+    .yc-banner-box .banner-link-box .link-btn-box {
         width: 50%;
         padding-left: 10px;
         padding-right: 10px;
@@ -2549,7 +2549,7 @@ hr {
         z-index: 99
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:hover {
+    .yc-banner-box .banner-link-box .link-btn-box:hover {
         -webkit-transform: translate(0, 0);
         -moz-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
@@ -2557,7 +2557,7 @@ hr {
         transform: translate(0, 0)
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:after {
+    .yc-banner-box .banner-link-box .link-btn-box:after {
         content: "";
         display: none;
         width: 50px;
@@ -2568,18 +2568,18 @@ hr {
         top: 0
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:first-child {
+    .yc-banner-box .banner-link-box .link-btn-box:first-child {
         left: 0;
         padding: 0;
         padding-right: 10px;
         padding-left: 10px
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:first-child:after {
+    .yc-banner-box .banner-link-box .link-btn-box:first-child:after {
         display: none
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:first-child:hover {
+    .yc-banner-box .banner-link-box .link-btn-box:first-child:hover {
         -webkit-transform: translate(0, 0);
         -moz-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
@@ -2587,11 +2587,11 @@ hr {
         transform: translate(0, 0)
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:first-child a {
+    .yc-banner-box .banner-link-box .link-btn-box:first-child a {
         background: #ffc501
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:first-child a:after {
+    .yc-banner-box .banner-link-box .link-btn-box:first-child a:after {
         content: "";
         display: none;
         width: 90px;
@@ -2602,7 +2602,7 @@ hr {
         top: 65px
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box a {
+    .yc-banner-box .banner-link-box .link-btn-box a {
         display: block;
         width: 100%;
         height: 100px;
@@ -2618,25 +2618,25 @@ hr {
         transition: all .3s linear
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box a span {
+    .yc-banner-box .banner-link-box .link-btn-box a span {
         display: block;
         font-size: 18px
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box a small {
+    .yc-banner-box .banner-link-box .link-btn-box a small {
         display: block;
         font-family: "edo_szregular";
         font-size: 16px;
         margin-top: 10px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation {
+    .yc-banner-box .banner-content1 .ele-animation {
         display: table-cell;
         vertical-align: middle;
         color: #fff
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .border-text {
+    .yc-banner-box .banner-content1 .ele-animation .border-text {
         display: block;
         width: 150px;
         height: 40px;
@@ -2654,22 +2654,22 @@ hr {
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .border-text .iconfont {
+    .yc-banner-box .banner-content1 .ele-animation .border-text .iconfont {
         font-size: 12px;
         margin-left: 10px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation p {
+    .yc-banner-box .banner-content1 .ele-animation p {
         font-size: 20px;
         margin-top: 20px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation small {
+    .yc-banner-box .banner-content1 .ele-animation small {
         display: block;
         margin-top: 10px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .more-btn {
+    .yc-banner-box .banner-content1 .ele-animation .more-btn {
         display: block;
         width: 140px;
         height: 34px;
@@ -2690,44 +2690,44 @@ hr {
         visibility: hidden
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
+    .yc-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
         display: inline;
         margin-left: 5px
     }
 
-    .hp-banner-box .banner-content2 {
+    .yc-banner-box .banner-content2 {
         display: table;
         width: 100%;
         height: 100%;
         padding: 0 18%
     }
 
-    .hp-banner-box .banner-content2 .ele-animation {
+    .yc-banner-box .banner-content2 .ele-animation {
         display: table-cell;
         vertical-align: middle;
         color: #fff;
         text-align: center
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .border-text {
+    .yc-banner-box .banner-content2 .ele-animation .border-text {
         display: block;
         font-family: "edo_szregular";
         font-size: 26px;
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content2 .ele-animation p {
+    .yc-banner-box .banner-content2 .ele-animation p {
         font-size: 20px;
         font-weight: 100;
         margin-top: 20px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation small {
+    .yc-banner-box .banner-content2 .ele-animation small {
         display: block;
         margin-top: 10px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .more-btn {
+    .yc-banner-box .banner-content2 .ele-animation .more-btn {
         display: block;
         width: 200px;
         height: 40px;
@@ -2743,12 +2743,12 @@ hr {
         margin-top: 40px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .more-btn .iconfont {
+    .yc-banner-box .banner-content2 .ele-animation .more-btn .iconfont {
         font-size: 12px;
         margin-left: 10px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .more-btn:hover {
+    .yc-banner-box .banner-content2 .ele-animation .more-btn:hover {
         -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -2759,26 +2759,26 @@ hr {
         transform: translate(0, -10px)
     }
 
-    .hp-banner-box .banner-content3 {
+    .yc-banner-box .banner-content3 {
         display: table;
         width: 100%;
         height: 100%;
         padding: 0 10% 0 52%
     }
 
-    .hp-banner-box .banner-content3 .ele-animation {
+    .yc-banner-box .banner-content3 .ele-animation {
         display: table-cell;
         vertical-align: middle
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .border-text {
+    .yc-banner-box .banner-content3 .ele-animation .border-text {
         display: block;
         font-size: 26px;
         font-family: "edo_szregular";
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content3 .ele-animation p {
+    .yc-banner-box .banner-content3 .ele-animation p {
         font-size: 20px;
         font-weight: 100;
         margin-top: 20px;
@@ -2789,7 +2789,7 @@ hr {
         transition-delay: .5s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .line {
+    .yc-banner-box .banner-content3 .ele-animation .line {
         display: block;
         width: 50px;
         height: 4px;
@@ -2802,7 +2802,7 @@ hr {
         transition-delay: .7s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation small {
+    .yc-banner-box .banner-content3 .ele-animation small {
         display: block;
         font-size: 14px;
         margin-top: 30px;
@@ -2813,7 +2813,7 @@ hr {
         transition-delay: 1s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .more-btn {
+    .yc-banner-box .banner-content3 .ele-animation .more-btn {
         display: block;
         width: 200px;
         height: 40px;
@@ -2833,12 +2833,12 @@ hr {
         margin-top: 40px
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .more-btn .iconfont {
+    .yc-banner-box .banner-content3 .ele-animation .more-btn .iconfont {
         display: inline;
         margin-left: 5px
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .more-btn:hover {
+    .yc-banner-box .banner-content3 .ele-animation .more-btn:hover {
         -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
         box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -2851,33 +2851,33 @@ hr {
 }
 
 @media screen and (max-width: 568px) {
-    .hp-banner-box {
+    .yc-banner-box {
         width: 100%
     }
 
-    .hp-banner-box .am-slides > li {
+    .yc-banner-box .am-slides > li {
         height: 52.81690141vw
     }
 
-    .hp-banner-box .am-direction-nav {
+    .yc-banner-box .am-direction-nav {
         display: block
     }
 
-    .hp-banner-box .am-direction-nav .am-prev {
+    .yc-banner-box .am-direction-nav .am-prev {
         width: 30px;
         height: 30px;
         line-height: 30px;
         left: 10px
     }
 
-    .hp-banner-box .am-direction-nav .am-next {
+    .yc-banner-box .am-direction-nav .am-next {
         width: 30px;
         height: 30px;
         line-height: 30px;
         right: 10px
     }
 
-    .hp-banner-box .banner-link-box {
+    .yc-banner-box .banner-link-box {
         max-width: 800px;
         height: 100px;
         margin: 0 auto;
@@ -2885,70 +2885,70 @@ hr {
         z-index: 2
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box {
+    .yc-banner-box .banner-link-box .link-btn-box {
         width: 50%;
         padding-left: 5px;
         padding-right: 5px
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:first-child {
+    .yc-banner-box .banner-link-box .link-btn-box:first-child {
         left: 0;
         padding: 0;
         padding-right: 5px;
         padding-left: 5px
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box:first-child a {
+    .yc-banner-box .banner-link-box .link-btn-box:first-child a {
         background: #ffc501
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box a {
+    .yc-banner-box .banner-link-box .link-btn-box a {
         height: 80px;
         padding: 10px
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box a span {
+    .yc-banner-box .banner-link-box .link-btn-box a span {
         font-size: 14px
     }
 
-    .hp-banner-box .banner-link-box .link-btn-box a small {
+    .yc-banner-box .banner-link-box .link-btn-box a small {
         font-size: 12px
     }
 
-    .hp-banner-box .banner-content1 {
+    .yc-banner-box .banner-content1 {
         width: 100%;
         padding: 0 50px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation {
+    .yc-banner-box .banner-content1 .ele-animation {
         display: table-cell;
         vertical-align: middle;
         color: #fff
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .border-text {
+    .yc-banner-box .banner-content1 .ele-animation .border-text {
         display: none
     }
 
-    .hp-banner-box .banner-content1 .ele-animation p {
+    .yc-banner-box .banner-content1 .ele-animation p {
         font-size: 16px;
         margin-top: 0
     }
 
-    .hp-banner-box .banner-content1 .ele-animation p br {
+    .yc-banner-box .banner-content1 .ele-animation p br {
         display: none
     }
 
-    .hp-banner-box .banner-content1 .ele-animation small {
+    .yc-banner-box .banner-content1 .ele-animation small {
         display: block;
         margin-top: 10px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation small br {
+    .yc-banner-box .banner-content1 .ele-animation small br {
         display: none
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .more-btn {
+    .yc-banner-box .banner-content1 .ele-animation .more-btn {
         display: block;
         width: 140px;
         height: 34px;
@@ -2968,67 +2968,67 @@ hr {
         margin-top: 20px
     }
 
-    .hp-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
+    .yc-banner-box .banner-content1 .ele-animation .more-btn .iconfont {
         display: inline;
         margin-left: 5px
     }
 
-    .hp-banner-box .banner-content2 {
+    .yc-banner-box .banner-content2 {
         display: table;
         width: 100%;
         height: 100%;
         padding: 0 18%
     }
 
-    .hp-banner-box .banner-content2 .ele-animation {
+    .yc-banner-box .banner-content2 .ele-animation {
         display: table-cell;
         vertical-align: middle;
         color: #fff;
         text-align: center
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .border-text {
+    .yc-banner-box .banner-content2 .ele-animation .border-text {
         display: block;
         font-family: "edo_szregular";
         font-size: 20px;
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content2 .ele-animation p {
+    .yc-banner-box .banner-content2 .ele-animation p {
         font-size: 14px;
         font-weight: 100;
         margin-top: 20px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation small {
+    .yc-banner-box .banner-content2 .ele-animation small {
         display: block;
         margin-top: 10px
     }
 
-    .hp-banner-box .banner-content2 .ele-animation .more-btn {
+    .yc-banner-box .banner-content2 .ele-animation .more-btn {
         display: none
     }
 
-    .hp-banner-box .banner-content3 {
+    .yc-banner-box .banner-content3 {
         display: table;
         width: 100%;
         height: 100%;
         padding: 0 18% 0 52%
     }
 
-    .hp-banner-box .banner-content3 .ele-animation {
+    .yc-banner-box .banner-content3 .ele-animation {
         display: table-cell;
         vertical-align: middle
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .border-text {
+    .yc-banner-box .banner-content3 .ele-animation .border-text {
         display: block;
         font-size: 20px;
         font-family: "edo_szregular";
         text-transform: uppercase
     }
 
-    .hp-banner-box .banner-content3 .ele-animation p {
+    .yc-banner-box .banner-content3 .ele-animation p {
         font-size: 14px;
         font-weight: 100;
         margin-top: 20px;
@@ -3039,7 +3039,7 @@ hr {
         transition-delay: .5s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation .line {
+    .yc-banner-box .banner-content3 .ele-animation .line {
         display: none;
         width: 50px;
         height: 4px;
@@ -3052,7 +3052,7 @@ hr {
         transition-delay: .7s
     }
 
-    .hp-banner-box .banner-content3 .ele-animation small {
+    .yc-banner-box .banner-content3 .ele-animation small {
         display: none;
         font-size: 16px;
         margin-top: 30px;
@@ -3064,23 +3064,23 @@ hr {
     }
 }
 
-.hp-fast-signup {
+.yc-fast-signup {
     width: 100%;
     padding: 60px 0;
     background: #fff
 }
 
-.hp-fast-signup .fast-signup-box {
+.yc-fast-signup .fast-signup-box {
     max-width: 1170px;
     height: 160px;
     margin: 0 auto
 }
 
-.hp-fast-signup .fast-signup {
+.yc-fast-signup .fast-signup {
     margin: 0 -15px
 }
 
-.hp-fast-signup .link-btn-box {
+.yc-fast-signup .link-btn-box {
     float: left;
     width: 50%;
     padding: 0 15px;
@@ -3091,11 +3091,11 @@ hr {
     transition: all .3s linear
 }
 
-.hp-fast-signup .link-btn-box:first-child a {
+.yc-fast-signup .link-btn-box:first-child a {
     background: #ffc501
 }
 
-.hp-fast-signup .link-btn-box:first-child a:hover {
+.yc-fast-signup .link-btn-box:first-child a:hover {
     -webkit-transform: translate(0, -10px);
     -moz-transform: translate(0, -10px);
     -ms-transform: translate(0, -10px);
@@ -3106,7 +3106,7 @@ hr {
     box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5)
 }
 
-.hp-fast-signup .link-btn-box a {
+.yc-fast-signup .link-btn-box a {
     display: block;
     width: 100%;
     height: 160px;
@@ -3125,7 +3125,7 @@ hr {
     transition: all .3s linear
 }
 
-.hp-fast-signup .link-btn-box a:hover {
+.yc-fast-signup .link-btn-box a:hover {
     -webkit-transform: translate(0, -10px);
     -moz-transform: translate(0, -10px);
     -ms-transform: translate(0, -10px);
@@ -3136,100 +3136,100 @@ hr {
     box-shadow: 4px 4px 20px 1px rgba(0, 214, 240, 0.5), 4px 4px 20px 1px rgba(0, 214, 240, 0.5)
 }
 
-.hp-fast-signup .link-btn-box a > div {
+.yc-fast-signup .link-btn-box a > div {
     display: inline-block
 }
 
-.hp-fast-signup .link-btn-box a .icon {
+.yc-fast-signup .link-btn-box a .icon {
     float: left;
     font-size: 100px
 }
 
-.hp-fast-signup .link-btn-box a .btn-content {
+.yc-fast-signup .link-btn-box a .btn-content {
     padding: 10px 0;
     margin-left: 130px;
     text-align: left
 }
 
-.hp-fast-signup .link-btn-box a .btn-content small {
+.yc-fast-signup .link-btn-box a .btn-content small {
     display: block;
     font-size: 36px;
     line-height: 1;
     font-family: "edo_szregular"
 }
 
-.hp-fast-signup .link-btn-box a .btn-content span {
+.yc-fast-signup .link-btn-box a .btn-content span {
     display: block;
     font-size: 24px;
     margin-top: 10px
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-fast-signup {
+    .yc-fast-signup {
         width: 100%;
         padding: 60px 20px;
         background: #fff
     }
 
-    .hp-fast-signup .fast-signup-box {
+    .yc-fast-signup .fast-signup-box {
         max-width: 992px;
         height: 160px;
         margin: 0 auto
     }
 
-    .hp-fast-signup .fast-signup {
+    .yc-fast-signup .fast-signup {
         margin: 0 -10px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-fast-signup {
+    .yc-fast-signup {
         width: 100%;
         padding: 60px 20px;
         background: #fff
     }
 
-    .hp-fast-signup .fast-signup-box {
+    .yc-fast-signup .fast-signup-box {
         max-width: 992px;
         height: 140px;
         margin: 0 auto
     }
 
-    .hp-fast-signup .fast-signup {
+    .yc-fast-signup .fast-signup {
         margin: 0 -10px
     }
 
-    .hp-fast-signup .link-btn-box {
+    .yc-fast-signup .link-btn-box {
         float: left;
         width: 50%
     }
 
-    .hp-fast-signup .link-btn-box a {
+    .yc-fast-signup .link-btn-box a {
         display: block;
         width: 100%;
         height: 140px;
         padding: 30px 10px
     }
 
-    .hp-fast-signup .link-btn-box a .icon {
+    .yc-fast-signup .link-btn-box a .icon {
         float: left;
         font-size: 80px
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content {
+    .yc-fast-signup .link-btn-box a .btn-content {
         padding: 10px 0;
         margin-left: 100px;
         text-align: left
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content small {
+    .yc-fast-signup .link-btn-box a .btn-content small {
         display: block;
         font-size: 24px;
         line-height: 1;
         font-family: "edo_szregular"
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content span {
+    .yc-fast-signup .link-btn-box a .btn-content span {
         display: block;
         font-size: 20px;
         margin-top: 10px
@@ -3237,53 +3237,53 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    .hp-fast-signup {
+    .yc-fast-signup {
         width: 100%;
         padding: 30px 10px;
         background: #fff
     }
 
-    .hp-fast-signup .fast-signup-box {
+    .yc-fast-signup .fast-signup-box {
         height: 140px;
         margin: 0 auto
     }
 
-    .hp-fast-signup .fast-signup {
+    .yc-fast-signup .fast-signup {
         margin: 0 -5px
     }
 
-    .hp-fast-signup .link-btn-box {
+    .yc-fast-signup .link-btn-box {
         float: left;
         width: 50%;
         padding: 0 5px
     }
 
-    .hp-fast-signup .link-btn-box a {
+    .yc-fast-signup .link-btn-box a {
         display: block;
         width: 100%;
         height: 140px;
         padding: 10px
     }
 
-    .hp-fast-signup .link-btn-box a .icon {
+    .yc-fast-signup .link-btn-box a .icon {
         float: none;
         font-size: 50px
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content {
+    .yc-fast-signup .link-btn-box a .btn-content {
         padding: 10px 0;
         margin-left: 0;
         text-align: center
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content small {
+    .yc-fast-signup .link-btn-box a .btn-content small {
         display: block;
         font-size: 20px;
         line-height: 1;
         font-family: "edo_szregular"
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content span {
+    .yc-fast-signup .link-btn-box a .btn-content span {
         display: block;
         font-size: 16px;
         margin-top: 10px
@@ -3291,84 +3291,84 @@ hr {
 }
 
 @media screen and (max-width: 568px) {
-    .hp-fast-signup {
+    .yc-fast-signup {
         width: 100%;
         padding: 30px 10px;
         background: #fff
     }
 
-    .hp-fast-signup .fast-signup-box {
+    .yc-fast-signup .fast-signup-box {
         height: 100px;
         margin: 0 auto
     }
 
-    .hp-fast-signup .fast-signup {
+    .yc-fast-signup .fast-signup {
         margin: 0 -5px
     }
 
-    .hp-fast-signup .link-btn-box {
+    .yc-fast-signup .link-btn-box {
         float: left;
         width: 50%;
         padding: 0 5px
     }
 
-    .hp-fast-signup .link-btn-box a {
+    .yc-fast-signup .link-btn-box a {
         display: block;
         width: 100%;
         height: 100px;
         padding: 10px
     }
 
-    .hp-fast-signup .link-btn-box a .icon {
+    .yc-fast-signup .link-btn-box a .icon {
         float: none;
         font-size: 50px
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content {
+    .yc-fast-signup .link-btn-box a .btn-content {
         padding: 10px 0;
         margin-left: 0;
         text-align: center
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content small {
+    .yc-fast-signup .link-btn-box a .btn-content small {
         display: none;
         font-size: 18px;
         line-height: 1;
         font-family: "edo_szregular"
     }
 
-    .hp-fast-signup .link-btn-box a .btn-content span {
+    .yc-fast-signup .link-btn-box a .btn-content span {
         display: block;
         font-size: 14px;
         margin-top: 5px
     }
 }
 
-.hp-why-study {
+.yc-why-study {
     width: 100%;
     padding: 60px 0;
     background: #f9f9f9;
     position: relative
 }
 
-.hp-why-study .study-advan-content {
+.yc-why-study .study-advan-content {
     max-width: 1170px;
     margin: 0 auto;
     text-align: center;
     margin-top: 40px
 }
 
-.hp-why-study .advan-list {
+.yc-why-study .advan-list {
     margin: -25px -55px
 }
 
-.hp-why-study .advan-list li {
+.yc-why-study .advan-list li {
     float: left;
     width: 33.3333%;
     padding: 25px 55px
 }
 
-.hp-why-study .advan-list li div {
+.yc-why-study .advan-list li div {
     display: block;
     width: 100%;
     height: 100%;
@@ -3380,7 +3380,7 @@ hr {
     transition: all .3s linear
 }
 
-.hp-why-study .advan-list svg {
+.yc-why-study .advan-list svg {
     font-size: 130px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -3392,7 +3392,7 @@ hr {
     transition: all .3s linear
 }
 
-.hp-why-study .advan-list svg:hover {
+.yc-why-study .advan-list svg:hover {
     -webkit-box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.05), 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.05), 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
     box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.05), 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
@@ -3403,20 +3403,20 @@ hr {
     transform: scale(1.1, 1.1)
 }
 
-.hp-why-study .advan-list .advan-brief-box {
+.yc-why-study .advan-list .advan-brief-box {
     display: block;
     height: 6.14285714em;
     margin-top: 20px
 }
 
-.hp-why-study .advan-list .advan-brief-box h5 {
+.yc-why-study .advan-list .advan-brief-box h5 {
     font-size: 18px;
     font-weight: bold;
     line-height: 1;
     position: relative
 }
 
-.hp-why-study .advan-list .advan-brief-box h5:after {
+.yc-why-study .advan-list .advan-brief-box h5:after {
     content: "";
     display: block;
     width: 30px;
@@ -3427,7 +3427,7 @@ hr {
     margin-left: -15px
 }
 
-.hp-why-study .advan-list .advan-brief-box p {
+.yc-why-study .advan-list .advan-brief-box p {
     font-size: 14px;
     margin-top: 30px;
     color: #999;
@@ -3438,26 +3438,26 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-why-study {
+    .yc-why-study {
         width: 100%;
         padding: 60px 20px
     }
 
-    .hp-why-study .study-advan-content {
+    .yc-why-study .study-advan-content {
         max-width: 992px
     }
 
-    .hp-why-study .advan-list {
+    .yc-why-study .advan-list {
         margin: -25px -35px
     }
 
-    .hp-why-study .advan-list li {
+    .yc-why-study .advan-list li {
         float: left;
         width: 33.3333%;
         padding: 25px 35px
     }
 
-    .hp-why-study .advan-list li div {
+    .yc-why-study .advan-list li div {
         display: block;
         width: 100%;
         height: 100%;
@@ -3469,57 +3469,57 @@ hr {
         transition: all .3s linear
     }
 
-    .hp-why-study .advan-list svg {
+    .yc-why-study .advan-list svg {
         font-size: 100px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-why-study {
+    .yc-why-study {
         width: 100%
     }
 
-    .hp-why-study .study-advan-content {
+    .yc-why-study .study-advan-content {
         max-width: 768px
     }
 
-    .hp-why-study .advan-list {
+    .yc-why-study .advan-list {
         margin: -25px -20px
     }
 
-    .hp-why-study .advan-list li {
+    .yc-why-study .advan-list li {
         float: left;
         width: 33.3333%;
         padding: 25px 20px
     }
 
-    .hp-why-study .advan-list svg {
+    .yc-why-study .advan-list svg {
         font-size: 80px
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hp-why-study {
+    .yc-why-study {
         width: 100%;
         padding: 30px 10px
     }
 
-    .hp-why-study .study-advan-content {
+    .yc-why-study .study-advan-content {
         max-width: 568px;
         margin-top: 20px
     }
 
-    .hp-why-study .advan-list {
+    .yc-why-study .advan-list {
         margin: -25px -35px
     }
 
-    .hp-why-study .advan-list li {
+    .yc-why-study .advan-list li {
         float: left;
         width: 33.3333%;
         padding: 25px 35px
     }
 
-    .hp-why-study .advan-list li div {
+    .yc-why-study .advan-list li div {
         display: block;
         width: 100%;
         height: 100%;
@@ -3531,52 +3531,52 @@ hr {
         transition: all .3s linear
     }
 
-    .hp-why-study .advan-list svg {
+    .yc-why-study .advan-list svg {
         font-size: 60px
     }
 
-    .hp-why-study .advan-list .advan-brief-box h5 {
+    .yc-why-study .advan-list .advan-brief-box h5 {
         font-size: 14px
     }
 
-    .hp-why-study .advan-list .advan-brief-box p {
+    .yc-why-study .advan-list .advan-brief-box p {
         font-size: 12px
     }
 }
 
 @media screen and (max-width: 568px) {
-    .hp-why-study {
+    .yc-why-study {
         width: 100%;
         padding: 30px 5px
     }
 
-    .hp-why-study .study-advan-content {
+    .yc-why-study .study-advan-content {
         width: 100%;
         margin-top: 20px
     }
 
-    .hp-why-study .advan-list {
+    .yc-why-study .advan-list {
         margin: -15px 0
     }
 
-    .hp-why-study .advan-list li {
+    .yc-why-study .advan-list li {
         float: left;
         width: 50%;
         padding: 15px 5px
     }
 }
 
-.hp-about-box {
+.yc-about-box {
     width: 100%;
     padding-top: 60px
 }
 
-.hp-about-box .about-content {
+.yc-about-box .about-content {
     max-width: 1170px;
     margin: 0 auto
 }
 
-.hp-about-box .about-content .about-brief-box {
+.yc-about-box .about-content .about-brief-box {
     float: left;
     display: block;
     max-width: 700px;
@@ -3584,21 +3584,21 @@ hr {
     position: relative
 }
 
-.hp-about-box .about-content .about-brief-box .en-title {
+.yc-about-box .about-content .about-brief-box .en-title {
     display: block;
     font-size: 18px;
     line-height: 1;
     font-family: "edo_szregular"
 }
 
-.hp-about-box .about-content .about-brief-box > h4 {
+.yc-about-box .about-content .about-brief-box > h4 {
     font-size: 24px;
     line-height: 1;
     margin-top: 10px;
     text-transform: uppercase
 }
 
-.hp-about-box .about-content .about-brief-box > p {
+.yc-about-box .about-content .about-brief-box > p {
     color: #999;
     margin-top: 30px;
     text-align: justify;
@@ -3608,18 +3608,18 @@ hr {
     -webkit-box-orient: vertical
 }
 
-.hp-about-box .about-content .about-brief-box .about-data-list {
+.yc-about-box .about-content .about-brief-box .about-data-list {
     margin: 30px -10px 0 -10px
 }
 
-.hp-about-box .about-content .about-brief-box .about-data-list li {
+.yc-about-box .about-content .about-brief-box .about-data-list li {
     float: left;
     width: 25%;
     padding: 0 10px;
     text-align: left
 }
 
-.hp-about-box .about-content .about-brief-box .about-data-list li > div {
+.yc-about-box .about-content .about-brief-box .about-data-list li > div {
     padding: 20px;
     background: #f9f9f9;
     -webkit-transition: all .3s linear;
@@ -3629,7 +3629,7 @@ hr {
     transition: all .3s linear
 }
 
-.hp-about-box .about-content .about-brief-box .about-data-list li > div:hover {
+.yc-about-box .about-content .about-brief-box .about-data-list li > div:hover {
     -webkit-transform: translate(0, -10px);
     -moz-transform: translate(0, -10px);
     -ms-transform: translate(0, -10px);
@@ -3637,22 +3637,22 @@ hr {
     transform: translate(0, -10px)
 }
 
-.hp-about-box .about-content .about-brief-box .about-data-list li span {
+.yc-about-box .about-content .about-brief-box .about-data-list li span {
     display: block
 }
 
-.hp-about-box .about-content .about-brief-box .about-data-list li .iconfont {
+.yc-about-box .about-content .about-brief-box .about-data-list li .iconfont {
     font-size: 40px;
     line-height: 1;
     color: #ffc501;
     margin-bottom: 10px
 }
 
-.hp-about-box .about-content .about-brief-box .more-curse-btn {
+.yc-about-box .about-content .about-brief-box .more-curse-btn {
     margin-top: 20px
 }
 
-.hp-about-box .about-content .about-brief-box .more-curse-btn .more-btn {
+.yc-about-box .about-content .about-brief-box .more-curse-btn .more-btn {
     display: block;
     width: 200px;
     height: 40px;
@@ -3672,12 +3672,12 @@ hr {
     transition: all .3s linear
 }
 
-.hp-about-box .about-content .about-brief-box .more-curse-btn .more-btn .iconfont {
+.yc-about-box .about-content .about-brief-box .more-curse-btn .more-btn .iconfont {
     display: inline;
     margin-left: 5px
 }
 
-.hp-about-box .about-content .about-brief-box .more-curse-btn .more-btn:hover {
+.yc-about-box .about-content .about-brief-box .more-curse-btn .more-btn:hover {
     -webkit-transform: translate(0, -10px);
     -moz-transform: translate(0, -10px);
     -ms-transform: translate(0, -10px);
@@ -3688,47 +3688,47 @@ hr {
     box-shadow: 4px 4px 20px 1px rgba(0, 214, 240, 0.5), 4px 4px 20px 1px rgba(0, 214, 240, 0.5)
 }
 
-.hp-about-box .about-content .about-img {
+.yc-about-box .about-content .about-img {
     float: right;
     max-height: 350px
 }
 
-.hp-about-box .about-content .about-img img {
+.yc-about-box .about-content .about-img img {
     height: 100%
 }
 
-.hp-about-box .hp-about-advan {
+.yc-about-box .yc-about-advan {
     max-width: 1170px;
     margin: 0 auto;
     padding: 60px 0;
     position: relative
 }
 
-.hp-about-box .hp-about-advan .am-slides > li {
+.yc-about-box .yc-about-advan .am-slides > li {
     display: none;
     width: 100%;
     position: relative
 }
 
-.hp-about-box .hp-about-advan .am-slides > li:first-child {
+.yc-about-box .yc-about-advan .am-slides > li:first-child {
     display: block
 }
 
-.hp-about-box .hp-about-advan .about-advan-content {
+.yc-about-box .yc-about-advan .about-advan-content {
     width: 100%
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list {
     margin: -15px
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item {
     float: left;
     width: 33.3333%;
     padding: 15px
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a {
     display: block;
     width: 100%;
     height: 230px;
@@ -3739,11 +3739,11 @@ hr {
     position: relative
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief {
     opacity: 1
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief .animation {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief .animation {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -3752,7 +3752,7 @@ hr {
     opacity: 1
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .jqthumb {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .jqthumb {
     width: 100%;
     height: 230px;
     -webkit-border-radius: 5px;
@@ -3761,7 +3761,7 @@ hr {
     overflow: hidden
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
     width: 100%;
     height: 100%;
     color: #fff;
@@ -3779,20 +3779,20 @@ hr {
     left: 0
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief .iconfont {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief .iconfont {
     display: inline-block;
     font-size: 40px;
     line-height: 1;
     color: #ffc501
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief h5 {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief h5 {
     font-size: 24px;
     line-height: 1;
     margin-top: 20px
 }
 
-.hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief p {
+.yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief p {
     margin-top: 20px;
     overflow: hidden;
     display: -webkit-box;
@@ -3800,11 +3800,11 @@ hr {
     -webkit-box-orient: vertical
 }
 
-.hp-about-box .hp-about-advan .am-direction-nav {
+.yc-about-box .yc-about-advan .am-direction-nav {
     display: none !important
 }
 
-.hp-about-box .hp-about-advan .am-control-nav {
+.yc-about-box .yc-about-advan .am-control-nav {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -3812,7 +3812,7 @@ hr {
     text-align: center
 }
 
-.hp-about-box .hp-about-advan .am-control-nav li {
+.yc-about-box .yc-about-advan .am-control-nav li {
     display: inline-block;
     width: 50px;
     height: 4px;
@@ -3833,60 +3833,60 @@ hr {
     transition: all .3s linear
 }
 
-.hp-about-box .hp-about-advan .am-control-nav li:hover {
+.yc-about-box .yc-about-advan .am-control-nav li:hover {
     background: #ffc501;
     border-color: transparent
 }
 
-.hp-about-box .hp-about-advan .am-control-nav .am-active {
+.yc-about-box .yc-about-advan .am-control-nav .am-active {
     background: #ffc501;
     border-color: transparent;
     background-clip: content-box
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-about-box {
+    .yc-about-box {
         width: 100%;
         padding: 60px 20px
     }
 
-    .hp-about-box .about-content {
+    .yc-about-box .about-content {
         max-width: 992px
     }
 
-    .hp-about-box .about-content .about-brief-box {
+    .yc-about-box .about-content .about-brief-box {
         float: left;
         max-width: 500px
     }
 
-    .hp-about-box .hp-about-advan {
+    .yc-about-box .yc-about-advan {
         max-width: 992px;
         padding-bottom: 60px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content {
+    .yc-about-box .yc-about-advan .about-advan-content {
         width: 100%
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list {
         margin: -15px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item {
         float: left;
         width: 33.3333%;
         padding: 15px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a {
         height: 200px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief {
         opacity: 1
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief .animation {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a:hover .advan-brief .animation {
         -webkit-transform: translate(0, 0);
         -moz-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
@@ -3895,132 +3895,132 @@ hr {
         opacity: 1
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .jqthumb {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .jqthumb {
         height: 200px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
         padding: 30px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-about-box {
+    .yc-about-box {
         width: 100%
     }
 
-    .hp-about-box .about-content {
+    .yc-about-box .about-content {
         max-width: 768px
     }
 
-    .hp-about-box .about-content .about-brief-box {
+    .yc-about-box .about-content .about-brief-box {
         float: none;
         max-width: 100%;
         height: auto
     }
 
-    .hp-about-box .about-content .about-img {
+    .yc-about-box .about-content .about-img {
         float: none;
         max-height: 100%;
         margin-top: 60px;
         text-align: center
     }
 
-    .hp-about-box .about-content .about-img img {
+    .yc-about-box .about-content .about-img img {
         height: 100%
     }
 
-    .hp-about-box .hp-about-advan {
+    .yc-about-box .yc-about-advan {
         max-width: 768px
     }
 
-    .hp-about-box .hp-about-advan .am-slides > li {
+    .yc-about-box .yc-about-advan .am-slides > li {
         display: none;
         width: 100%;
         position: relative
     }
 
-    .hp-about-box .hp-about-advan .am-slides > li:first-child {
+    .yc-about-box .yc-about-advan .am-slides > li:first-child {
         display: block
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content {
+    .yc-about-box .yc-about-advan .about-advan-content {
         width: 100%
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list {
         margin: -15px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item {
         float: left;
         width: 50%
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hp-about-box {
+    .yc-about-box {
         width: 100%;
         padding: 30px 10px
     }
 
-    .hp-about-box .about-content {
+    .yc-about-box .about-content {
         max-width: 568px
     }
 
-    .hp-about-box .about-content .about-brief-box {
+    .yc-about-box .about-content .about-brief-box {
         display: block;
         width: 100%
     }
 
-    .hp-about-box .about-content .about-img {
+    .yc-about-box .about-content .about-img {
         float: none;
         max-height: 100%
     }
 
-    .hp-about-box .hp-about-advan {
+    .yc-about-box .yc-about-advan {
         max-width: 568px;
         padding-bottom: 30px;
         position: relative
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content {
+    .yc-about-box .yc-about-advan .about-advan-content {
         width: 100%
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list {
         margin: -15px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item {
         float: left;
         width: 50%;
         padding: 15px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a {
         height: 180px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
         width: 100%;
         height: 100%
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief .iconfont {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief .iconfont {
         display: inline-block;
         font-size: 30px;
         line-height: 1;
         color: #ffc501
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief h5 {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief h5 {
         font-size: 16px;
         line-height: 1;
         margin-top: 10px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief p {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief p {
         margin-top: 10px;
         font-size: 14px;
         overflow: hidden;
@@ -4029,7 +4029,7 @@ hr {
         -webkit-box-orient: vertical
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief .animation {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief .animation {
         -webkit-transform: translate(0, 0);
         -moz-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
@@ -4040,100 +4040,100 @@ hr {
 }
 
 @media screen and (max-width: 568px) {
-    .hp-about-box {
+    .yc-about-box {
         width: 100%
     }
 
-    .hp-about-box .about-content {
+    .yc-about-box .about-content {
         max-width: 100%
     }
 
-    .hp-about-box .about-content .about-brief-box {
+    .yc-about-box .about-content .about-brief-box {
         max-width: 100%;
         position: relative
     }
 
-    .hp-about-box .about-content .about-brief-box .en-title {
+    .yc-about-box .about-content .about-brief-box .en-title {
         display: block;
         font-size: 18px;
         line-height: 1;
         font-family: "edo_szregular"
     }
 
-    .hp-about-box .about-content .about-brief-box > h4 {
+    .yc-about-box .about-content .about-brief-box > h4 {
         font-size: 16px;
         line-height: 1;
         margin-top: 10px;
         text-transform: uppercase
     }
 
-    .hp-about-box .about-content .about-brief-box > p {
+    .yc-about-box .about-content .about-brief-box > p {
         color: #999;
         margin-top: 20px;
         font-size: 12px;
         text-align: justify
     }
 
-    .hp-about-box .about-content .about-brief-box .about-data-list {
+    .yc-about-box .about-content .about-brief-box .about-data-list {
         margin: 20px -5px 0 -5px
     }
 
-    .hp-about-box .about-content .about-brief-box .about-data-list li {
+    .yc-about-box .about-content .about-brief-box .about-data-list li {
         float: left;
         width: 50%;
         padding: 5px;
         text-align: left
     }
 
-    .hp-about-box .about-content .about-brief-box .about-data-list li > div {
+    .yc-about-box .about-content .about-brief-box .about-data-list li > div {
         padding: 20px;
         background: #f9f9f9
     }
 
-    .hp-about-box .about-content .about-brief-box .about-data-list li span {
+    .yc-about-box .about-content .about-brief-box .about-data-list li span {
         display: block
     }
 
-    .hp-about-box .about-content .about-brief-box .about-data-list li .iconfont {
+    .yc-about-box .about-content .about-brief-box .about-data-list li .iconfont {
         font-size: 40px;
         line-height: 1;
         color: #ffc501;
         margin-bottom: 10px
     }
 
-    .hp-about-box .about-content .about-img {
+    .yc-about-box .about-content .about-img {
         display: none;
         max-height: 100%;
         padding: 0 20px
     }
 
-    .hp-about-box .about-content .about-img img {
+    .yc-about-box .about-content .about-img img {
         height: auto
     }
 
-    .hp-about-box .hp-about-advan {
+    .yc-about-box .yc-about-advan {
         width: 100%
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content {
+    .yc-about-box .yc-about-advan .about-advan-content {
         width: 100%
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list {
         margin: 0
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item {
         float: left;
         width: 50%;
         padding: 5px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item a {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item a {
         height: 120px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .jqthumb {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .jqthumb {
         width: 100%;
         height: 120px;
         -webkit-border-radius: 5px;
@@ -4142,25 +4142,25 @@ hr {
         overflow: hidden
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief {
         opacity: 1;
         padding: 20px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief .iconfont {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief .iconfont {
         display: none;
         font-size: 24px;
         line-height: 1;
         color: #ffc501
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief h5 {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief h5 {
         font-size: 14px;
         line-height: 1;
         margin-top: 10px
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief p {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief p {
         height: 32px;
         margin-top: 10px;
         font-size: 12px;
@@ -4170,7 +4170,7 @@ hr {
         -webkit-box-orient: vertical
     }
 
-    .hp-about-box .hp-about-advan .about-advan-content .advan-list .advan-item .advan-brief .animation {
+    .yc-about-box .yc-about-advan .about-advan-content .advan-list .advan-item .advan-brief .animation {
         -webkit-transform: translate(0, 0);
         -moz-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
@@ -4180,28 +4180,28 @@ hr {
     }
 }
 
-.hp-curse-box {
+.yc-curse-box {
     width: 100%;
     padding: 60px 0;
     background: #f9f9f9
 }
 
-.hp-curse-box .curse-content {
+.yc-curse-box .curse-content {
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 60px
 }
 
-.hp-curse-box .curse-content .curse-type-box {
+.yc-curse-box .curse-content .curse-type-box {
     width: 100%;
     text-align: center
 }
 
-.hp-curse-box .curse-content .curse-type-box .curse-type-list {
+.yc-curse-box .curse-content .curse-type-box .curse-type-list {
     display: inline-block
 }
 
-.hp-curse-box .curse-content .curse-type-box .curse-type-list li {
+.yc-curse-box .curse-content .curse-type-box .curse-type-list li {
     float: left;
     height: 36px;
     line-height: 34px;
@@ -4220,39 +4220,39 @@ hr {
     border: 1px solid #ffc501
 }
 
-.hp-curse-box .curse-content .curse-type-box .curse-type-list li:hover {
+.yc-curse-box .curse-content .curse-type-box .curse-type-list li:hover {
     background: #ffc501;
     color: #fff
 }
 
-.hp-curse-box .curse-content .curse-type-box .curse-type-list .curr {
+.yc-curse-box .curse-content .curse-type-box .curse-type-list .curr {
     background: #ffc501;
     color: #fff
 }
 
-.hp-curse-box .curse-content .curse-details-content {
+.yc-curse-box .curse-content .curse-details-content {
     margin-top: 60px
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-item-group {
+.yc-curse-box .curse-content .curse-details-content .curse-item-group {
     display: none
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-item-group:first-child {
+.yc-curse-box .curse-content .curse-details-content .curse-item-group:first-child {
     display: block
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list {
     margin: 0 -20px
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list li {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list li {
     float: left;
     width: 33.3333%;
     padding: 0 20px
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list li a {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list li a {
     display: block;
     width: 100%;
     height: 150px;
@@ -4268,7 +4268,7 @@ hr {
     z-index: 1
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list li a:hover {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list li a:hover {
     -webkit-box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.05), 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.05), 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
     box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.05), 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
@@ -4279,13 +4279,13 @@ hr {
     transform: translate(0, -10px)
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list li a h5 {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list li a h5 {
     font-size: 18px;
     line-height: 1;
     font-weight: bold
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list li a p {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list li a p {
     color: #999;
     margin-top: 10px;
     line-height: 26px;
@@ -4295,7 +4295,7 @@ hr {
     -webkit-box-orient: vertical
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list li a .number {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list li a .number {
     display: block;
     width: 100%;
     font-size: 160px;
@@ -4310,7 +4310,7 @@ hr {
     z-index: -1
 }
 
-.hp-curse-box .curse-content .curse-details-content .curse-brief-list li a .angle-logo {
+.yc-curse-box .curse-content .curse-details-content .curse-brief-list li a .angle-logo {
     display: block;
     width: 95px;
     height: 95px;
@@ -4321,21 +4321,21 @@ hr {
     left: 0
 }
 
-.hp-curse-box .curse-more-link {
+.yc-curse-box .curse-more-link {
     margin-top: 60px;
     text-align: center
 }
 
-.hp-curse-box .curse-more-link .more-link-list {
+.yc-curse-box .curse-more-link .more-link-list {
     display: inline-block
 }
 
-.hp-curse-box .curse-more-link .more-link-list li {
+.yc-curse-box .curse-more-link .more-link-list li {
     float: left;
     margin: 0 15px
 }
 
-.hp-curse-box .curse-more-link .more-link-list li a {
+.yc-curse-box .curse-more-link .more-link-list li a {
     display: block;
     width: 200px;
     height: 40px;
@@ -4354,12 +4354,12 @@ hr {
     overflow: hidden
 }
 
-.hp-curse-box .curse-more-link .more-link-list li a .iconfont {
+.yc-curse-box .curse-more-link .more-link-list li a .iconfont {
     display: inline;
     margin-left: 5px
 }
 
-.hp-curse-box .curse-more-link .more-link-list li a:hover {
+.yc-curse-box .curse-more-link .more-link-list li a:hover {
     -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -4371,53 +4371,53 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-curse-box {
+    .yc-curse-box {
         width: 100%;
         padding: 60px 20px
     }
 
-    .hp-curse-box .curse-content {
+    .yc-curse-box .curse-content {
         max-width: 992px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-curse-box {
+    .yc-curse-box {
         width: 100%
     }
 
-    .hp-curse-box .curse-content {
+    .yc-curse-box .curse-content {
         max-width: 768px
     }
 
-    .hp-curse-box .curse-content .curse-details-content {
+    .yc-curse-box .curse-content .curse-details-content {
         margin-top: 60px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list {
         margin: 0 -20px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li {
         float: left;
         width: 33.3333%;
         padding: 0 10px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a {
         display: block;
         width: 100%;
         height: 120px;
         padding: 20px 30px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a h5 {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a h5 {
         font-size: 18px;
         line-height: 1;
         font-weight: bold
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a p {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a p {
         color: #999;
         margin-top: 10px;
         line-height: 26px;
@@ -4427,26 +4427,26 @@ hr {
         -webkit-box-orient: vertical
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a .number {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a .number {
         font-size: 100px;
         line-height: 120px
     }
 
-    .hp-curse-box .curse-more-link {
+    .yc-curse-box .curse-more-link {
         margin-top: 60px;
         text-align: center
     }
 
-    .hp-curse-box .curse-more-link .more-link-list {
+    .yc-curse-box .curse-more-link .more-link-list {
         display: inline-block
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li {
+    .yc-curse-box .curse-more-link .more-link-list li {
         float: left;
         margin: 0 15px
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li a {
+    .yc-curse-box .curse-more-link .more-link-list li a {
         display: block;
         width: 200px;
         height: 40px;
@@ -4465,64 +4465,64 @@ hr {
         overflow: hidden
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li a .iconfont {
+    .yc-curse-box .curse-more-link .more-link-list li a .iconfont {
         display: inline;
         margin-left: 5px
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hp-curse-box {
+    .yc-curse-box {
         width: 100%;
         padding: 30px 10px;
         background: #f9f9f9
     }
 
-    .hp-curse-box .curse-content {
+    .yc-curse-box .curse-content {
         max-width: 568px;
         margin-top: 30px
     }
 
-    .hp-curse-box .curse-content .curse-type-box {
+    .yc-curse-box .curse-content .curse-type-box {
         width: 100%;
         text-align: center
     }
 
-    .hp-curse-box .curse-content .curse-type-box .curse-type-list {
+    .yc-curse-box .curse-content .curse-type-box .curse-type-list {
         display: block;
         width: 100%
     }
 
-    .hp-curse-box .curse-content .curse-type-box .curse-type-list li {
+    .yc-curse-box .curse-content .curse-type-box .curse-type-list li {
         float: left;
         width: 23%;
         margin: 1%;
         padding: 0
     }
 
-    .hp-curse-box .curse-content .curse-details-content {
+    .yc-curse-box .curse-content .curse-details-content {
         margin-top: 30px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-item-group {
+    .yc-curse-box .curse-content .curse-details-content .curse-item-group {
         display: none
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-item-group:first-child {
+    .yc-curse-box .curse-content .curse-details-content .curse-item-group:first-child {
         display: block
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list {
         margin: 0 -20px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li {
         float: left;
         width: 33.3333%;
         padding: 0 5px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a {
         display: block;
         width: 100%;
         height: 100px;
@@ -4533,13 +4533,13 @@ hr {
         z-index: 1
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a h5 {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a h5 {
         font-size: 16px;
         line-height: 1;
         font-weight: bold
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a p {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a p {
         font-size: 12px;
         color: #999;
         margin-top: 10px;
@@ -4550,38 +4550,38 @@ hr {
         -webkit-box-orient: vertical
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a .number {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a .number {
         display: block;
         width: 100%;
         font-size: 80px;
         line-height: 100px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a .angle-logo {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a .angle-logo {
         display: block;
         width: 65px;
         height: 65px
     }
 
-    .hp-curse-box .curse-more-link {
+    .yc-curse-box .curse-more-link {
         margin-top: 30px;
         text-align: center
     }
 
-    .hp-curse-box .curse-more-link .more-link-list {
+    .yc-curse-box .curse-more-link .more-link-list {
         display: inline-block
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li {
+    .yc-curse-box .curse-more-link .more-link-list li {
         float: left;
         margin: 0 15px
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li:last-child {
+    .yc-curse-box .curse-more-link .more-link-list li:last-child {
         display: none
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li a {
+    .yc-curse-box .curse-more-link .more-link-list li a {
         display: block;
         width: 200px;
         height: 40px;
@@ -4600,86 +4600,86 @@ hr {
         overflow: hidden
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li a .iconfont {
+    .yc-curse-box .curse-more-link .more-link-list li a .iconfont {
         display: inline;
         margin-left: 5px
     }
 }
 
 @media screen and (max-width: 568px) {
-    .hp-curse-box {
+    .yc-curse-box {
         width: 100%
     }
 
-    .hp-curse-box .curse-content {
+    .yc-curse-box .curse-content {
         max-width: 100%;
         margin-top: 30px
     }
 
-    .hp-curse-box .curse-content .curse-type-box {
+    .yc-curse-box .curse-content .curse-type-box {
         width: 100%;
         padding: 0 20px;
         text-align: center
     }
 
-    .hp-curse-box .curse-content .curse-type-box .curse-type-list {
+    .yc-curse-box .curse-content .curse-type-box .curse-type-list {
         display: block;
         width: 100%
     }
 
-    .hp-curse-box .curse-content .curse-type-box .curse-type-list li {
+    .yc-curse-box .curse-content .curse-type-box .curse-type-list li {
         float: left;
         width: 48%;
         margin: 1%;
         padding: 0
     }
 
-    .hp-curse-box .curse-content .curse-details-content {
+    .yc-curse-box .curse-content .curse-details-content {
         margin-top: 10px
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-item-group {
+    .yc-curse-box .curse-content .curse-details-content .curse-item-group {
         display: none
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-item-group:first-child {
+    .yc-curse-box .curse-content .curse-details-content .curse-item-group:first-child {
         display: block
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list {
         max-width: 320px;
         margin: 0 auto
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li {
         float: none;
         width: 100%;
         padding: 0 20px;
         margin: 20px 0
     }
 
-    .hp-curse-box .curse-content .curse-details-content .curse-brief-list li a {
+    .yc-curse-box .curse-content .curse-details-content .curse-brief-list li a {
         display: block;
         width: 100%;
         height: 140px;
         padding: 40px 30px
     }
 
-    .hp-curse-box .curse-more-link {
+    .yc-curse-box .curse-more-link {
         margin-top: 20px;
         text-align: center
     }
 
-    .hp-curse-box .curse-more-link .more-link-list {
+    .yc-curse-box .curse-more-link .more-link-list {
         display: inline-block
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li {
+    .yc-curse-box .curse-more-link .more-link-list li {
         float: none;
         margin: 10px 15px
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li a {
+    .yc-curse-box .curse-more-link .more-link-list li a {
         display: block;
         width: 200px;
         height: 40px;
@@ -4698,30 +4698,30 @@ hr {
         overflow: hidden
     }
 
-    .hp-curse-box .curse-more-link .more-link-list li a .iconfont {
+    .yc-curse-box .curse-more-link .more-link-list li a .iconfont {
         display: inline;
         margin-left: 5px
     }
 }
 
-.hp-case-box {
+.yc-case-box {
     width: 100%;
     padding: 60px 0;
     background: #32374b;
     overflow: hidden
 }
 
-.hp-case-box .case-content {
+.yc-case-box .case-content {
     max-width: 1170px;
     margin: 0 auto
 }
 
-.hp-case-box .case-content .case-list {
+.yc-case-box .case-content .case-list {
     width: 100%;
     position: relative
 }
 
-.hp-case-box .case-content .case-list .slick-next, .hp-case-box .case-content .case-list .slick-prev {
+.yc-case-box .case-content .case-list .slick-next, .yc-case-box .case-content .case-list .slick-prev {
     display: block;
     width: 36px;
     height: 36px;
@@ -4743,30 +4743,30 @@ hr {
     margin-top: -20px
 }
 
-.hp-case-box .case-content .case-list .slick-next:hover, .hp-case-box .case-content .case-list .slick-prev:hover {
+.yc-case-box .case-content .case-list .slick-next:hover, .yc-case-box .case-content .case-list .slick-prev:hover {
     color: #ffc501
 }
 
-.hp-case-box .case-content .case-list .slick-next {
+.yc-case-box .case-content .case-list .slick-next {
     right: 0
 }
 
-.hp-case-box .case-content .case-list .slick-prev {
+.yc-case-box .case-content .case-list .slick-prev {
     left: 0
 }
 
-.hp-case-box .case-content .case-list .slick-list {
+.yc-case-box .case-content .case-list .slick-list {
     width: 100%;
     color: #fff;
     overflow: hidden
 }
 
-.hp-case-box .case-content .case-list .slick-slide {
+.yc-case-box .case-content .case-list .slick-slide {
     float: left;
     height: 100%
 }
 
-.hp-case-box .case-content .case-list .slick-slide > a {
+.yc-case-box .case-content .case-list .slick-slide > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -4780,7 +4780,7 @@ hr {
     position: relative
 }
 
-.hp-case-box .case-content .case-list .slick-slide > a .portr-img {
+.yc-case-box .case-content .case-list .slick-slide > a .portr-img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
@@ -4795,7 +4795,7 @@ hr {
     overflow: hidden
 }
 
-.hp-case-box .case-content .case-list .slick-slide > a .portr-img:hover {
+.yc-case-box .case-content .case-list .slick-slide > a .portr-img:hover {
     -webkit-transform: scale(1.05, 1.05);
     -moz-transform: scale(1.05, 1.05);
     -ms-transform: scale(1.05, 1.05);
@@ -4803,11 +4803,11 @@ hr {
     transform: scale(1.05, 1.05)
 }
 
-.hp-case-box .case-content .case-list .slick-slide > a .case-brief {
+.yc-case-box .case-content .case-list .slick-slide > a .case-brief {
     margin-top: 20px
 }
 
-.hp-case-box .case-content .case-list .slick-slide > a .case-brief p {
+.yc-case-box .case-content .case-list .slick-slide > a .case-brief p {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -4815,54 +4815,54 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-case-box {
+    .yc-case-box {
         width: 100%;
         padding: 60px 0;
         background: #32374b;
         overflow: hidden
     }
 
-    .hp-case-box .case-content {
+    .yc-case-box .case-content {
         max-width: 1170px;
         margin: 0 auto
     }
 
-    .hp-case-box .case-content .case-list {
+    .yc-case-box .case-content .case-list {
         width: 100%;
         position: relative
     }
 
-    .hp-case-box .case-content .case-list .slick-next {
+    .yc-case-box .case-content .case-list .slick-next {
         right: 10px
     }
 
-    .hp-case-box .case-content .case-list .slick-prev {
+    .yc-case-box .case-content .case-list .slick-prev {
         left: 10px
     }
 }
 
-.hp-news-box {
+.yc-news-box {
     width: 100%;
     padding: 60px 0
 }
 
-.hp-news-box .news-list-box {
+.yc-news-box .news-list-box {
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 60px
 }
 
-.hp-news-box .news-list-box .news-list {
+.yc-news-box .news-list-box .news-list {
     margin: 0 -15px
 }
 
-.hp-news-box .news-list-box .news-list li {
+.yc-news-box .news-list-box .news-list li {
     float: left;
     width: 33.3333%;
     padding: 0 15px
 }
 
-.hp-news-box .news-list-box .news-list li > div {
+.yc-news-box .news-list-box .news-list li > div {
     width: 100%;
     padding-bottom: 40px;
     -webkit-box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.05), 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
@@ -4876,7 +4876,7 @@ hr {
     text-align: center
 }
 
-.hp-news-box .news-list-box .news-list li > div:hover {
+.yc-news-box .news-list-box .news-list li > div:hover {
     -webkit-transform: translate(0, -10px);
     -moz-transform: translate(0, -10px);
     -ms-transform: translate(0, -10px);
@@ -4884,18 +4884,18 @@ hr {
     transform: translate(0, -10px)
 }
 
-.hp-news-box .news-list-box .news-list li .news-img {
+.yc-news-box .news-list-box .news-list li .news-img {
     width: 100%;
     height: 190px
 }
 
-.hp-news-box .news-list-box .news-list li .news-brief {
+.yc-news-box .news-list-box .news-list li .news-brief {
     width: 100%;
     height: 130px;
     padding: 25px
 }
 
-.hp-news-box .news-list-box .news-list li .news-brief h5 {
+.yc-news-box .news-list-box .news-list li .news-brief h5 {
     font-size: 16px;
     font-weight: bold;
     line-height: 1.2;
@@ -4910,11 +4910,11 @@ hr {
     transition: all .3s linear
 }
 
-.hp-news-box .news-list-box .news-list li .news-brief h5:hover {
+.yc-news-box .news-list-box .news-list li .news-brief h5:hover {
     color: #ffc501
 }
 
-.hp-news-box .news-list-box .news-list li .news-brief p {
+.yc-news-box .news-list-box .news-list li .news-brief p {
     margin-top: 20px;
     color: #999;
     overflow: hidden;
@@ -4923,7 +4923,7 @@ hr {
     -webkit-box-orient: vertical
 }
 
-.hp-news-box .news-list-box .news-list li .more-btn {
+.yc-news-box .news-list-box .news-list li .more-btn {
     display: block;
     width: 200px;
     height: 40px;
@@ -4943,12 +4943,12 @@ hr {
     transition: all .3s linear
 }
 
-.hp-news-box .news-list-box .news-list li .more-btn .iconfont {
+.yc-news-box .news-list-box .news-list li .more-btn .iconfont {
     display: inline;
     margin-left: 5px
 }
 
-.hp-news-box .news-list-box .news-list li .more-btn:hover {
+.yc-news-box .news-list-box .news-list li .more-btn:hover {
     -webkit-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     -moz-box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
     box-shadow: 4px 4px 20px 1px rgba(250, 193, 1, 0.5), 4px 4px 20px 1px rgba(250, 193, 1, 0.5);
@@ -4960,41 +4960,41 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-news-box {
+    .yc-news-box {
         width: 100%;
         padding: 60px 20px
     }
 
-    .hp-news-box .news-list-box {
+    .yc-news-box .news-list-box {
         max-width: 992px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-news-box {
+    .yc-news-box {
         width: 100%
     }
 
-    .hp-news-box .news-list-box {
+    .yc-news-box .news-list-box {
         max-width: 768px
     }
 
-    .hp-news-box .news-list-box .news-list {
+    .yc-news-box .news-list-box .news-list {
         margin: 0 -5px
     }
 
-    .hp-news-box .news-list-box .news-list li {
+    .yc-news-box .news-list-box .news-list li {
         float: left;
         width: 33.3333%;
         padding: 0 10px
     }
 
-    .hp-news-box .news-list-box .news-list li .news-img {
+    .yc-news-box .news-list-box .news-list li .news-img {
         width: 100%;
         height: 140px
     }
 
-    .hp-news-box .news-list-box .news-list li .more-btn {
+    .yc-news-box .news-list-box .news-list li .more-btn {
         display: block;
         width: 140px;
         height: 34px;
@@ -5013,50 +5013,50 @@ hr {
         overflow: hidden
     }
 
-    .hp-news-box .news-list-box .news-list li .more-btn .iconfont {
+    .yc-news-box .news-list-box .news-list li .more-btn .iconfont {
         display: inline;
         margin-left: 5px
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hp-news-box {
+    .yc-news-box {
         width: 100%;
         padding: 30px 10px
     }
 
-    .hp-news-box .news-list-box {
+    .yc-news-box .news-list-box {
         max-width: 100%;
         margin-top: 30px
     }
 
-    .hp-news-box .news-list-box .news-list {
+    .yc-news-box .news-list-box .news-list {
         margin: 0
     }
 
-    .hp-news-box .news-list-box .news-list li {
+    .yc-news-box .news-list-box .news-list li {
         float: left;
         width: 33.3333%;
         padding: 0 10px
     }
 
-    .hp-news-box .news-list-box .news-list li > div {
+    .yc-news-box .news-list-box .news-list li > div {
         width: 100%;
         padding-bottom: 20px
     }
 
-    .hp-news-box .news-list-box .news-list li .news-img {
+    .yc-news-box .news-list-box .news-list li .news-img {
         width: 100%;
         height: 120px
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief {
+    .yc-news-box .news-list-box .news-list li .news-brief {
         width: 100%;
         height: 100px;
         padding: 25px
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief h5 {
+    .yc-news-box .news-list-box .news-list li .news-brief h5 {
         font-size: 14px;
         font-weight: bold;
         line-height: 1.2;
@@ -5071,11 +5071,11 @@ hr {
         transition: all .3s linear
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief h5:hover {
+    .yc-news-box .news-list-box .news-list li .news-brief h5:hover {
         color: #ffc501
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief p {
+    .yc-news-box .news-list-box .news-list li .news-brief p {
         margin-top: 10px;
         font-size: 12px;
         color: #999;
@@ -5087,42 +5087,42 @@ hr {
 }
 
 @media screen and (max-width: 558px) {
-    .hp-news-box {
+    .yc-news-box {
         width: 100%
     }
 
-    .hp-news-box .news-list-box {
+    .yc-news-box .news-list-box {
         max-width: 100%
     }
 
-    .hp-news-box .news-list-box .news-list {
+    .yc-news-box .news-list-box .news-list {
         max-width: 400px;
         margin: 0 auto
     }
 
-    .hp-news-box .news-list-box .news-list li {
+    .yc-news-box .news-list-box .news-list li {
         float: left;
         width: 100%;
         padding: 10px
     }
 
-    .hp-news-box .news-list-box .news-list li > div {
+    .yc-news-box .news-list-box .news-list li > div {
         width: 100%;
         padding-bottom: 20px
     }
 
-    .hp-news-box .news-list-box .news-list li .news-img {
+    .yc-news-box .news-list-box .news-list li .news-img {
         width: 100%;
         height: 140px
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief {
+    .yc-news-box .news-list-box .news-list li .news-brief {
         width: 100%;
         height: 100px;
         padding: 25px
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief h5 {
+    .yc-news-box .news-list-box .news-list li .news-brief h5 {
         font-size: 14px;
         font-weight: bold;
         line-height: 1.2;
@@ -5137,11 +5137,11 @@ hr {
         transition: all .3s linear
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief h5:hover {
+    .yc-news-box .news-list-box .news-list li .news-brief h5:hover {
         color: #ffc501
     }
 
-    .hp-news-box .news-list-box .news-list li .news-brief p {
+    .yc-news-box .news-list-box .news-list li .news-brief p {
         margin-top: 10px;
         font-size: 12px;
         color: #999;
@@ -5152,18 +5152,18 @@ hr {
     }
 }
 
-.hp-video-box {
+.yc-video-box {
     width: 100%;
     padding-top: 60px;
     background: #f9f9f9
 }
 
-.hp-video-box .video-content {
+.yc-video-box .video-content {
     margin-top: 60px;
     position: relative
 }
 
-.hp-video-box .video-content .alter-btn {
+.yc-video-box .video-content .alter-btn {
     display: block;
     font-size: 50px;
     color: #ffc501;
@@ -5173,16 +5173,16 @@ hr {
     left: 50%
 }
 
-.hp-video-box .video-content .video-bg {
+.yc-video-box .video-content .video-bg {
     width: 100%;
     height: 440px
 }
 
-.hp-video-box .video-content .common-alter-mask {
+.yc-video-box .video-content .common-alter-mask {
     position: fixed
 }
 
-.hp-video-box .video-content .common-alter-mask .alter-content {
+.yc-video-box .video-content .common-alter-mask .alter-content {
     width: 50%;
     height: 50%;
     background: none;
@@ -5195,65 +5195,65 @@ hr {
     margin: auto
 }
 
-.hp-video-box .video-content .common-alter-mask .alter-content .video-box {
+.yc-video-box .video-content .common-alter-mask .alter-content .video-box {
     width: 100%;
     text-align: center
 }
 
-.hp-video-box .video-content .common-alter-mask .alter-content .video-box video {
+.yc-video-box .video-content .common-alter-mask .alter-content .video-box video {
     width: 100%
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-video-box {
+    .yc-video-box {
         width: 100%;
         padding-top: 60px
     }
 
-    .hp-video-box .video-content {
+    .yc-video-box .video-content {
         margin-top: 60px
     }
 
-    .hp-video-box .video-content .common-alter-mask {
+    .yc-video-box .video-content .common-alter-mask {
         position: fixed
     }
 
-    .hp-video-box .video-content .common-alter-mask .alter-content {
+    .yc-video-box .video-content .common-alter-mask .alter-content {
         width: 80%
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-video-box {
+    .yc-video-box {
         width: 100%;
         padding-top: 60px
     }
 
-    .hp-video-box .video-content {
+    .yc-video-box .video-content {
         margin-top: 60px
     }
 
-    .hp-video-box .video-content .common-alter-mask {
+    .yc-video-box .video-content .common-alter-mask {
         position: fixed
     }
 
-    .hp-video-box .video-content .common-alter-mask .alter-content {
+    .yc-video-box .video-content .common-alter-mask .alter-content {
         width: 80%
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hp-video-box {
+    .yc-video-box {
         width: 100%;
         padding-top: 30px
     }
 
-    .hp-video-box .video-content {
+    .yc-video-box .video-content {
         margin-top: 30px;
         position: relative
     }
 
-    .hp-video-box .video-content .alter-btn {
+    .yc-video-box .video-content .alter-btn {
         display: block;
         font-size: 50px;
         color: #ffc501;
@@ -5263,28 +5263,28 @@ hr {
         left: 50%
     }
 
-    .hp-video-box .video-content .video-bg {
+    .yc-video-box .video-content .video-bg {
         width: 100%;
         height: 240px
     }
 
-    .hp-video-box .video-content .common-alter-mask {
+    .yc-video-box .video-content .common-alter-mask {
         position: fixed
     }
 }
 
 @media screen and (max-width: 568px) {
-    .hp-video-box {
+    .yc-video-box {
         width: 100%;
         padding-top: 30px
     }
 
-    .hp-video-box .video-content {
+    .yc-video-box .video-content {
         margin-top: 30px;
         position: relative
     }
 
-    .hp-video-box .video-content .alter-btn {
+    .yc-video-box .video-content .alter-btn {
         display: block;
         font-size: 30px;
         color: #ffc501;
@@ -5294,36 +5294,36 @@ hr {
         left: 48%
     }
 
-    .hp-video-box .video-content .video-bg {
+    .yc-video-box .video-content .video-bg {
         width: 100%;
         height: 140px
     }
 
-    .hp-video-box .video-content .common-alter-mask {
+    .yc-video-box .video-content .common-alter-mask {
         position: fixed
     }
 }
 
-.hp-partner-box {
+.yc-partner-box {
     width: 100%;
     padding: 60px 0;
     overflow: hidden
 }
 
-.hp-partner-box .partner-content {
+.yc-partner-box .partner-content {
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 60px;
     position: relative
 }
 
-.hp-partner-box .partner-content .partner-list {
+.yc-partner-box .partner-content .partner-list {
     width: 100%;
     border-top: 1px solid #f3f3f3;
     border-left: 1px solid #f3f3f3
 }
 
-.hp-partner-box .partner-content .partner-list li {
+.yc-partner-box .partner-content .partner-list li {
     float: left;
     width: 25%;
     height: 170px;
@@ -5331,7 +5331,7 @@ hr {
     border-bottom: 1px solid #f3f3f3
 }
 
-.hp-partner-box .partner-content .partner-list li a {
+.yc-partner-box .partner-content .partner-list li a {
     display: block;
     width: 100%;
     height: 100%;
@@ -5346,7 +5346,7 @@ hr {
     position: relative
 }
 
-.hp-partner-box .partner-content .partner-list li a::before {
+.yc-partner-box .partner-content .partner-list li a::before {
     content: "";
     border-left: 1px solid #ffc501;
     border-right: 1px solid #ffc501;
@@ -5367,7 +5367,7 @@ hr {
     bottom: 0
 }
 
-.hp-partner-box .partner-content .partner-list li a::after {
+.yc-partner-box .partner-content .partner-list li a::after {
     content: "";
     border-top: 1px solid #ffc501;
     border-bottom: 1px solid #ffc501;
@@ -5388,7 +5388,7 @@ hr {
     bottom: 0
 }
 
-.hp-partner-box .partner-content .partner-list li a img {
+.yc-partner-box .partner-content .partner-list li a img {
     max-width: 50%;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
@@ -5406,7 +5406,7 @@ hr {
     -webkit-filter: grayscale(1)
 }
 
-.hp-partner-box .partner-content .partner-list li a:hover::after, .hp-partner-box .partner-content .partner-list li a:hover::before {
+.yc-partner-box .partner-content .partner-list li a:hover::after, .yc-partner-box .partner-content .partner-list li a:hover::before {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
@@ -5414,7 +5414,7 @@ hr {
     transform: scale(1, 1)
 }
 
-.hp-partner-box .partner-content .partner-list li a:hover img {
+.yc-partner-box .partner-content .partner-list li a:hover img {
     filter: grayscale(1);
     -moz-filter: grayscale(0);
     -ms-filter: grayscale(0);
@@ -5425,43 +5425,43 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
-    .hp-partner-box {
+    .yc-partner-box {
         width: 100%;
         padding: 60px 20px;
         overflow: hidden
     }
 
-    .hp-partner-box .partner-content {
+    .yc-partner-box .partner-content {
         max-width: 992px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .hp-partner-box {
+    .yc-partner-box {
         width: 100%
     }
 
-    .hp-partner-box .partner-content {
+    .yc-partner-box .partner-content {
         max-width: 768px;
         margin-top: 60px;
         position: relative
     }
 
-    .hp-partner-box .partner-content .partner-list {
+    .yc-partner-box .partner-content .partner-list {
         width: 100%
     }
 
-    .hp-partner-box .partner-content .partner-list li {
+    .yc-partner-box .partner-content .partner-list li {
         float: left;
         width: 25%;
         height: 120px
     }
 
-    .hp-partner-box .partner-content .partner-list li a {
+    .yc-partner-box .partner-content .partner-list li a {
         line-height: 120px
     }
 
-    .hp-partner-box .partner-content .partner-list li a img {
+    .yc-partner-box .partner-content .partner-list li a img {
         filter: grayscale(1);
         -moz-filter: grayscale(0);
         -ms-filter: grayscale(0);
@@ -5473,56 +5473,56 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    .hp-partner-box {
+    .yc-partner-box {
         width: 100%;
         padding: 30px 10px
     }
 
-    .hp-partner-box .partner-content {
+    .yc-partner-box .partner-content {
         max-width: 768px;
         margin-top: 30px;
         position: relative
     }
 
-    .hp-partner-box .partner-content .partner-list {
+    .yc-partner-box .partner-content .partner-list {
         width: 100%
     }
 
-    .hp-partner-box .partner-content .partner-list li {
+    .yc-partner-box .partner-content .partner-list li {
         float: left;
         width: 25%;
         height: 100px
     }
 
-    .hp-partner-box .partner-content .partner-list li a {
+    .yc-partner-box .partner-content .partner-list li a {
         line-height: 100px
     }
 }
 
 @media screen and (max-width: 568px) {
-    .hp-partner-box {
+    .yc-partner-box {
         display: none;
         width: 100%;
         padding: 30px 10px
     }
 
-    .hp-partner-box .partner-content {
+    .yc-partner-box .partner-content {
         max-width: 400px;
         margin-top: 30px;
         position: relative
     }
 
-    .hp-partner-box .partner-content .partner-list {
+    .yc-partner-box .partner-content .partner-list {
         width: 100%
     }
 
-    .hp-partner-box .partner-content .partner-list li {
+    .yc-partner-box .partner-content .partner-list li {
         float: left;
         width: 50%;
         height: 100px
     }
 
-    .hp-partner-box .partner-content .partner-list li a {
+    .yc-partner-box .partner-content .partner-list li a {
         line-height: 100px
     }
 }
