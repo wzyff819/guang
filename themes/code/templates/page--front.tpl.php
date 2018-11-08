@@ -2,7 +2,7 @@
     <div class="header-content">
         <a href="/" class="header-logo" target="_blank">
             <div class="logo">
-                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程,潍坊小孩子学编程，潍坊孩子编程培训">
+                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程,潍坊小孩学编程，潍坊编程中小学">
             </div>
         </a>
         <div class="header-nav-box">
@@ -11,7 +11,7 @@
                 <span><?php echo $mobile;?></span>
             </div>
             <h1 class="head-title">
-                <a href="/">潍坊翼橙少儿编程教育-潍坊首家青少年编程培训机构</a>
+                <a href="/">潍坊翼橙少儿编程教育-潍坊首家少儿编程培训机构</a>
             </h1>
             <nav class="header-nav" style="max-height: 293px;">
                 <?php print theme('links__system_main_menu', array(
@@ -100,7 +100,7 @@
 <section class="hp-why-study">
     <div class="page-common-title">
         <em>Why teenagers learn programming</em>
-        <h3>为什么要在青少年时期学习编程</h3>
+        <h3>为什么要在中小学时期学习编程</h3>
     </div>
     <div class="study-advan-content">
         <ul class="advan-list clearfix">
@@ -190,7 +190,7 @@
             <h4>关于翼橙</h4>
             <p>
                 翼橙(YiCheng)，是<storng>潍坊首家少儿编程培训机构</storng>，由互联网从业十年的团队创办。有丰富的开发和培训经验。
-                致力于让潍坊青少年认识到英语和数学的重要性，学会真正的编程技能，扫清未来的道路上因不会编程而遇到的阻碍！
+                致力于让潍坊青少年认识到英语和数学的重要性，学会<strong>真正</strong>真正的编程技能，扫清未来的道路上因不会编程而遇到的阻碍！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
                 <li><p><span class="iconfont"></span> 创客能力</p></li>
@@ -204,7 +204,7 @@
             </div>
         </div>
         <div class="about-img">
-            <img src="<?php print $image_path;?>/20170420094130309.png" alt="关于翼橙">
+            <img src="<?php print $image_path;?>/20170420094130309.png" alt="关于潍坊翼橙少儿编程">
         </div>
     </div>
 
@@ -317,8 +317,8 @@
             <div class="about-brief">
 
                 <p>
-                    小奔科技有限公司旗下的潍坊翼橙少儿编程教育，
-                    致力于提高潍坊青少年编程认知，并教会他们如何用程序思考和解决问题。</p>
+                    潍坊翼橙少儿编程教育，
+                    致力于提高潍坊中小学编程认知，并教会他们如何用程序思考和解决问题。</p>
             </div>
         </div>
     </div>
@@ -346,7 +346,7 @@
 
         </div>
         <div class="footer-copy-box">
-            <p>Copyright © 2018 翼橙编程培训 All Rights Reserved.</p>
+            <p>Copyright © 2018 潍坊翼橙少儿编程培训 All Rights Reserved.</p>
         </div>
     </div>
 </footer>
