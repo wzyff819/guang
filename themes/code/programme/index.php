@@ -208,7 +208,7 @@ $signPackage = $jssdk->GetSignPackage();
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2018 小奔教育
+                        Copyright &copy; 2018 翼橙少儿编程教育
                     </p>
                 </div>
                 <div class="col-sm-2 top">
