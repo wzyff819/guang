@@ -4,10 +4,10 @@
 <section class="about-page-service">
     <div class="service-product-content">
         <div class="service-product-brief clearfix">
-            <div class="brief-img jqthumb"><img alt="主要产品及服务" src="<?php print $image_path;?>/20170616054839423.jpg" /></div>
+            <div class="brief-img jqthumb"><img alt="翼橙编程课程及教学特点" src="<?php print $image_path;?>/20170616054839423.jpg" /></div>
             <div class="brief-text-box">
-                <div class="text-title"><span>about march</span>
-                    <h4>主要产品及服务</h4>
+                <div class="text-title">
+                    <h4>翼橙编程课程及教学特点</h4>
                 </div>
                 <p>翼橙用<strong>独创的故事性</strong>授课方式引导学生循序渐进学习编程。
                     把晦涩难懂的计算机概念用学生易懂的方式教授。
@@ -23,24 +23,24 @@
             <div class="service-product-list clearfix">
                 <ul class="list-paddingleft-2">
                     <li>
-                        <p><span class="iconfont"></span> <em>定制化小班教程</em></p>
+                        <p><span class="iconfont"></span> <em>少儿编程定制化小班教学</em></p>
                     </li>
                     <li>
                         <p><span class="iconfont">&#xe613;</span> <em>强健身体-咏春拳</em></p>
                     </li>
 
                     <li>
-                        <p><span class="iconfont"></span> <em>竞赛通道</em></p>
+                        <p><span class="iconfont"></span> <em>少儿编程竞赛通道</em></p>
                     </li>
                     <li>
-                        <p><span class="iconfont"></span> <em>创客活动及校园创客比赛</em></p>
+                        <p><span class="iconfont"></span> <em>少儿编程创客活动</em></p>
                     </li>
                     <li>
-                        <p><span class="iconfont"></span> <em>暑期夏令营</em></p>
+                        <p><span class="iconfont"></span> <em>少儿编程暑期夏令营</em></p>
                     </li>
 
                     <li>
-                        <p><span class="iconfont"></span> <em>校园兴趣班</em></p>
+                        <p><span class="iconfont"></span> <em>少儿编程校园兴趣班</em></p>
                     </li>
                 </ul>
             </div>
