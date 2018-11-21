@@ -2,12 +2,12 @@
     <div class="header-content">
         <a href="/" class="header-logo" target="_blank">
             <div class="logo">
-                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程,潍坊小孩学编程，潍坊编程中小学">
+                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程培训,潍坊编程教育，潍坊少儿编程">
             </div>
         </a>
         <div class="header-nav-box">
             <div class="head-tel">
-                <span class="iconfont"></span>
+                <span class="iconfont"></span>
                 <span><?php echo $mobile;?></span>
             </div>
             <h1 class="head-title">
@@ -40,7 +40,7 @@
             <a href="/" class="banner-content1">
                 <div class="ele-animation">
                     <span class="border-text animation fadeInDown">about YiCheng</span>
-                    <p class="animation fadeInUp">编码改变世界<br>翼橙带你走向未来</p>
+                    <p class="animation fadeInUp">编码改变世界<br>翼橙少儿编程带你走向未来</p>
                     <small class="animation fadeInUp">Coding is changing the world
                         YiCheng helps you become the changer
                     </small>
@@ -50,8 +50,8 @@
         <li data-bg="<?php print $image_path; ?>/20170507035453452.jpg||">
             <a href="/" class="banner-content2">
                 <div class="ele-animation">
-                    <span class="border-text animation fadeInDown">In the era of Internet, coding is the basic language you need to know Don’t let your children lag behind</span>
-                    <p class="animation fadeInUp">互联网时代 编程为基础语言 <br>不要让孩子被社会淘汰</p>
+                    <span class="border-text animation fadeInDown">快让孩子学习编程吧</span>
+                    <p class="animation fadeInUp">互联网时代 编程是基础技能 <br>不要让孩子被社会淘汰</p>
                     <small class="animation fadeInUp"></small>
                 </div>
             </a>
@@ -125,7 +125,7 @@
                     <span class="advan-brief-box">
 								<h5>逻辑思维</h5>
 								<p>
-									少儿编程毋庸置疑的天然优势
+									少儿编程有毋庸置疑的天然优势
                                 </p>
 							</span>
                 </div>
@@ -138,7 +138,7 @@
                     <span class="advan-brief-box">
 								<h5>把握时机</h5>
 								<p>
-									响应政府号如，提高升学竞争力，成为一条通往名校的全新赛道						</p>
+									响应政府号召，提高升学竞争力，成为一条通往名校的全新赛道						</p>
 							</span>
                 </div>
             </li>
@@ -174,7 +174,7 @@
                     <span class="advan-brief-box">
 								<h5>闪耀未来</h5>
 								<p>
-									科技在飞速发展，在未来编程不再是程序员的专属，从事任何工作都必须要会编程</p>
+									科技飞速发展，未来编程不再是程序员的专属，从事任何工作都必须要学会程序思维</p>
 							</span>
                 </div>
             </li>
@@ -189,14 +189,14 @@
             <span class="en-title">About YiCheng</span>
             <h4>关于翼橙</h4>
             <p>
-                翼橙(YiCheng)，是<storng>潍坊首家少儿编程培训机构</storng>，由互联网从业十年的团队创办。有丰富的开发和培训经验。
-                致力于让潍坊青少年认识到英语和数学的重要性，学会<strong>真正</strong>真正的编程技能，扫清未来的道路上因不会编程而遇到的阻碍！
+                翼橙(YiCheng)，<storng>潍坊首家少儿编程教育机构</storng>，由互联网从业十年的团队创办。有丰富的开发和培训经验。
+                致力于让潍坊中小学生认识到英语和数学的重要性，学到<strong>真正</strong>的编程技能，扫清未来的道路上因不懂编程而遇到的阻碍！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
-                <li><p><span class="iconfont"></span> 创客能力</p></li>
-                <li><p><span class="iconfont"></span> 编程精神</p></li>
-                <li><p><span class="iconfont"></span> 逻辑思维</p></li>
-                <li><p><span class="iconfont"></span> 动手操作</p></li>
+                <li><p><span class="iconfont"></span>创客精神</p></li>
+                <li><p><span class="iconfont"></span>英语、数学提高</p></li>
+                <li><p><span class="iconfont"></span>逻辑思维</p></li>
+                <li><p><span class="iconfont"></span>动手操作</p></li>
             </ul>
             <div class="more-curse-btn">
                 <a href="/about"
@@ -312,23 +312,23 @@
     <div class="footer-about">
         <div class="about-content">
             <div class="footer-title">
-                <h4>翼橙少儿编程教育</h4>
+                <h4>潍坊翼橙教学目标</h4>
             </div>
             <div class="about-brief">
 
                 <p>
                     潍坊翼橙少儿编程教育，
-                    致力于提高潍坊中小学编程认知，并教会他们如何用程序思考和解决问题。</p>
+                    致力于提高潍坊中小学编程认知，提升英语和数学成绩，并教会他们如何用程序思考和解决问题。</p>
             </div>
         </div>
     </div>
     <div class="footer-content">
         <div class="footer-contact clearfix">
             <div class="footer-title">
-                <h4>联系我们</h4>
+                <h4>联系</h4>
             </div>
             <ul class="contact-mode clearfix">
-                <li>地址：<?php print $address;?></li>
+<!--                <li>地址：--><?php //print $address;?><!--</li>-->
                 <li>电话：<?php print $mobile;?></li>
                 <li>微信：<?php print $wechat;?></li>
 
@@ -337,7 +337,7 @@
         </div>
         <div class="footer-follow">
             <div class="footer-title">
-                <h4>微信二维码</h4>
+                <h4>扫一扫咨询</h4>
             </div>
 
             <div class="follow-rq-code">
@@ -346,7 +346,7 @@
 
         </div>
         <div class="footer-copy-box">
-            <p>Copyright © 2018 潍坊翼橙少儿编程培训 All Rights Reserved.</p>
+            <p>Copyright © 2018 潍坊翼橙少儿编程教育 All Rights Reserved.</p>
         </div>
     </div>
 </footer>
