@@ -9535,3 +9535,7 @@ hr {
         font-size: 12px
     }
 }
+
+.about-data-list p {
+    text-align: center;
+}
