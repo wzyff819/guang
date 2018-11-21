@@ -50,7 +50,7 @@
         <li data-bg="<?php print $image_path; ?>/20170507035453452.jpg||">
             <a href="/" class="banner-content2">
                 <div class="ele-animation">
-                    <span class="border-text animation fadeInDown">快让孩子学习编程吧</span>
+                    <span class="border-text animation fadeInDown">让孩子学习编程吧</span>
                     <p class="animation fadeInUp">互联网时代 编程是基础技能 <br>不要让孩子被社会淘汰</p>
                     <small class="animation fadeInUp"></small>
                 </div>
@@ -193,10 +193,10 @@
                 致力于让潍坊中小学生认识到英语和数学的重要性，学到<strong>真正</strong>的编程技能，扫清未来的道路上因不懂编程而遇到的阻碍！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
-                <li><p><span class="iconfont"></span>创客精神</p></li>
-                <li><p><span class="iconfont"></span>英语、数学提高</p></li>
-                <li><p><span class="iconfont"></span>逻辑思维</p></li>
-                <li><p><span class="iconfont"></span>动手操作</p></li>
+                <li><p><span class="iconfont"></span>创客精神</p></li>
+                <li><p><span class="iconfont"></span>英语、数学提高</p></li>
+                <li><p><span class="iconfont"></span>逻辑思维</p></li>
+                <li><p><span class="iconfont"></span>动手操作</p></li>
             </ul>
             <div class="more-curse-btn">
                 <a href="/about"
