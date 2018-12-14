@@ -99,7 +99,7 @@ function code_preprocess_page(&$var)
 
     $var['theme_path'] = drupal_get_path('theme', 'code');
     $var['theme_url'] = file_create_url(drupal_get_path('theme', 'code'));
-    $var['address'] = '东风街潍州路交叉口东北角西部证券四楼';
+    $var['address'] = '潍坊高新区东方路桐荫街东南角';
     $var['wechat'] = '17763181919';
     $var['mobile'] = '<a href="tel:17763181919">17763181919</a>';
     $var['image_path'] = file_create_url('public://images');
