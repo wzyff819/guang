@@ -328,9 +328,8 @@
                 <h4>联系</h4>
             </div>
             <ul class="contact-mode clearfix">
-<!--                <li>地址：--><?php //print $address;?><!--</li>-->
+                <li>地址：<?php print $address;?></li>
                 <li>电话：<?php print $mobile;?></li>
-                <li>微信：<?php print $wechat;?></li>
 
             </ul>
 
