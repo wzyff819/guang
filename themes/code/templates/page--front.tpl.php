@@ -11,7 +11,7 @@
                 <span><?php echo $mobile;?></span>
             </div>
             <h1 class="head-title">
-                <a href="/">潍坊翼橙少儿编程教育-潍坊首家少儿编程培训机构</a>
+                <a href="/">潍坊翼橙少儿编程教育-潍坊真正的少儿编程培训机构</a>
             </h1>
             <nav class="header-nav" style="max-height: 293px;">
                 <?php print theme('links__system_main_menu', array(
@@ -39,19 +39,17 @@
         <li data-bg="<?php print $image_path; ?>/20170420090603172.jpg||<?php print $image_path; ?>/20170424112158228.jpg">
             <a href="/" class="banner-content1">
                 <div class="ele-animation">
-                    <span class="border-text animation fadeInDown">about YiCheng</span>
-                    <p class="animation fadeInUp">编码改变世界<br>翼橙少儿编程带你走向未来</p>
-                    <small class="animation fadeInUp">Coding is changing the world
-                        YiCheng helps you become the changer
-                    </small>
+                    <span class="border-text animation fadeInDown">潍坊少儿编程教育</span>
+                    <p class="animation fadeInUp">学编程，更聪明<br>学得好，来翼橙</p>
+
                 </div>
             </a>
         </li>
         <li data-bg="<?php print $image_path; ?>/20170507035453452.jpg||">
             <a href="/" class="banner-content2">
                 <div class="ele-animation">
-                    <span class="border-text animation fadeInDown">让孩子学习编程吧</span>
-                    <p class="animation fadeInUp">互联网时代 编程是基础技能 <br>不要让孩子被社会淘汰</p>
+                    <span class="border-text animation fadeInDown">报名从速</span>
+                    <p class="animation fadeInUp">小班授课，限时优惠，名额有限</p>
                     <small class="animation fadeInUp"></small>
                 </div>
             </a>
