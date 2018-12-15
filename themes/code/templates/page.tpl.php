@@ -41,7 +41,7 @@
     <div class="banner-text">
         <div>
             <span>Coding Yi Cheng</span>
-            <em>翼橙编程 让孩子更聪明</em>
+            <em>学编程，更聪明，学得好，来翼橙。</em>
         </div>
     </div>
 </section>
@@ -59,7 +59,7 @@
     <div class="footer-about">
         <div class="about-content">
             <div class="footer-title">
-                <h4>翼橙少儿编程教育</h4>
+                <h4>翼橙少儿编程</h4>
             </div>
             <div class="about-brief">
 
@@ -76,7 +76,6 @@
             <ul class="contact-mode clearfix">
                 <li>地址：<?php print $address;?></li>
                 <li>电话：<?php print $mobile;?></li>
-                <li>微信：<?php print $wechat;?></li>
 
             </ul>
 
@@ -92,7 +91,7 @@
 
         </div>
         <div class="footer-copy-box">
-            <p>Copyright © 2018 翼橙编程培训 All Rights Reserved.</p>
+            <p>Copyright © 2018 翼橙少儿编程教育 All Rights Reserved.</p>
         </div>
     </div>
 </footer>
