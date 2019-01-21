@@ -93,10 +93,18 @@ function zmdg_node_load($nodes, $types)
 {
 
     // Decide whether any of $types are relevant to our purposes.
-    if (count(array_intersect(['courses', 'teachers'], $types))) {
+    if (count(array_intersect(['courses', 'teachers', 'article'], $types))) {
         foreach ($nodes as $node) {
+            if(isset($node->field_img))
+            {
+                $node->img = file_create_url($node->field_img['und'][0]['uri']);
 
-            $node->img = file_create_url($node->field_img['und'][0]['uri']);
+            }
+
+            else{
+                $node->img = file_create_url($node->field_image['und'][0]['uri']);
+
+            }
             $node->field_summery = $node->body['und'][0]['safe_summary'];
             $node->field_body = $node->body['und'][0]['safe_value'];
             $node->field_role = $node->field_role['und'][0]['safe_value'];
@@ -132,8 +140,34 @@ function zmdg_menu()
     );
 
 
+    $items['news'] = array(
+        'title' => '翼橙新闻',
+        'page callback' => 'zmdg_news',
+        'access arguments' => array('access content'),
+        'type' => MENU_NORMAL_ITEM,
+        'menu_name' => 'main-menu'
+    );
+
+
 
     return $items;
+}
+
+
+function zmdg_news()
+{
+    require_once drupal_get_path('module', 'taxonomy') . '/taxonomy.pages.inc';
+    $term = taxonomy_term_load(1);
+    $build = taxonomy_term_page($term);
+
+    $build['term_heading']['#markup'] = '<div class="page-common-title">
+<em>Latest News</em>
+        <h3>翼橙新闻</h3>
+        </div>';
+    $build['#prefix'] = '<section class="news-page"><div class="news-list-box"><ul class="news-list clearfix">';
+    $build['#suffix'] = '</ul></div></section>';
+
+    return $build;
 }
 
 
