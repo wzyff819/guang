@@ -141,7 +141,7 @@ function zmdg_menu()
 
 
     $items['news'] = array(
-        'title' => '翼橙新闻',
+        'title' => '动态',
         'page callback' => 'zmdg_news',
         'access arguments' => array('access content'),
         'type' => MENU_NORMAL_ITEM,
