@@ -116,7 +116,7 @@
                 </h3>
                 <span><?php print date("Y-m-d", $node->created);?></span>
                 <p>
-                    <?php print $ndoe->field_summery;?>
+                    <?php print $node->field_summery;?>
                 </p>
                 <a href="<?php print $node_url;?>" class="more-btn">+More</a>
             </div>
