@@ -9539,3 +9539,7 @@ hr {
 .about-data-list p {
     text-align: center;
 }
+
+
+.content-details h3 {font-size: 2em; font-weight: bold;}
+.content-details p {margin-top: 1em; margin-bottom: 1em;}
