@@ -86,7 +86,7 @@
     <div class="news-details-content clearfix">
         <div class="news-details">
             <h1><?php print $title;?></h1>
-            <em><?php print $submitted;?></em>
+            <time><?php print $submitted;?></time>
         </div>
         <div class="content-details">
             <?php
