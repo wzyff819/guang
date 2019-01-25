@@ -110,7 +110,7 @@
                     <span class="advan-brief-box">
 								<h5>基础技能</h5>
 								<p>
-									在21世纪，少儿编程之于孩子如驾驶之于成人。
+									在21世纪，编程将成为必备技能。
                                 </p>
 							</span>
                 </div>
@@ -123,7 +123,7 @@
                     <span class="advan-brief-box">
 								<h5>逻辑思维</h5>
 								<p>
-									少儿编程有毋庸置疑的天然优势
+									编程有毋庸置疑的天然优势，对逻辑思维能力的培养不是做个数学题能比的。
                                 </p>
 							</span>
                 </div>
@@ -134,9 +134,9 @@
                         <use xlink:href="#icon-chronometer"></use>
                     </svg>
                     <span class="advan-brief-box">
-								<h5>把握时机</h5>
+								<h5>升学机遇</h5>
 								<p>
-									响应政府号召，提高升学竞争力，成为一条通往名校的全新赛道						</p>
+									响应政府号召，提高升学竞争力，一条通往名校的全新赛道						</p>
 							</span>
                 </div>
             </li>
@@ -187,8 +187,8 @@
             <span class="en-title">About YiCheng</span>
             <h4>关于翼橙</h4>
             <p>
-                翼橙(YiCheng)，<strong>潍坊首家少儿编程教育机构</strong>，由互联网从业十年的团队创办。有丰富的开发和培训经验。
-                致力于让潍坊中小学生认识到英语和数学的重要性，学到<strong>真正</strong>的编程技能，扫清未来的道路上因不懂编程而遇到的阻碍！
+                翼橙(YiCheng)，<strong>潍坊首家少儿编程教育机构</strong>，由互联网从业十余年的团队创办。有丰富的开发和培训经验。
+                致力于提高潍坊中小学生对英语、数学的重要性的认知，学到<strong>真正</strong>的编程技能，扫清未来的道路上因不懂编程而遇到的阻碍！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
                 <li><p><span class="iconfont"></span>创客精神</p></li>
