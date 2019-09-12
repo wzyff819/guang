@@ -1403,14 +1403,14 @@ hr {
 
 .footer-box .footer-about {
     float: left;
-    width: 40%
+    width: 33%
 }
 
 .footer-box .footer-about .about-content {
-    float: right;
-    text-align: left;
+    float: left;
+    text-align: center;
     max-width: 420px;
-    padding: 60px 20px 40px 0
+    padding: 60px 20px 40px 0;
 }
 
 .footer-box .footer-about .about-content .about-brief {
@@ -1422,7 +1422,7 @@ hr {
 }
 
 .footer-box .footer-about .about-content .about-brief p {
-    margin-top: 20px;
+    padding: 10px 30px;
     text-align: justify
 }
 
@@ -1439,7 +1439,8 @@ hr {
 
 .footer-box .footer-content .footer-contact {
     float: left;
-    max-width: 500px
+    max-width: 500px;
+    width:50%;
 }
 
 .footer-box .footer-content .footer-contact .contact-mode {
@@ -1505,7 +1506,8 @@ hr {
 }
 
 .footer-box .footer-content .footer-follow {
-    float: left
+    float: left;
+    width:50%;
 }
 
 .footer-box .footer-content .footer-follow .follow-rq-code {
@@ -6302,7 +6304,8 @@ hr {
     width: 100%;
     padding: 20px 0;
     position: relative;
-    z-index: 1
+    z-index: 1;
+    margin:10px 0;
 }
 
 .news-page .news-list-box .news-list li:hover::after {

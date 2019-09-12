@@ -8,7 +8,7 @@
         <div class="header-nav-box">
             <div class="head-tel">
                 <span class="iconfont"></span>
-                <span><?php print $mobile;?></span>
+                <span><?php print $mobile_zhang;?></span>
             </div>
 
             <nav class="header-nav" style="max-height: 293px;">
@@ -59,30 +59,33 @@
     <div class="footer-about">
         <div class="about-content">
             <div class="footer-title">
-                <h4>翼橙少儿编程</h4>
+                <h4>翼橙教学目标</h4>
             </div>
             <div class="about-brief">
-
                 <p>
-                    潍坊翼橙少儿编程教育，致力于提高潍坊青少年编程认知，并教会他们如何用程序思考和解决问题。</p>
+                  用教授编程的方式培养孩子计算思维，提高逻辑思维，
+                  同时培养孩子主动学习的习惯，掌握主动学习的方法。
+                  不让孩子在21世纪的信息化时代掉队。
+             </p>
             </div>
         </div>
     </div>
     <div class="footer-content">
         <div class="footer-contact clearfix">
             <div class="footer-title">
-                <h4>联系我们</h4>
+                <h4>联系</h4>
             </div>
             <ul class="contact-mode clearfix">
+            <li><?php print $mobile;?></li>
+
                 <li>地址：<?php print $address;?></li>
-                <li>电话：<?php print $mobile;?></li>
 
             </ul>
 
         </div>
         <div class="footer-follow">
             <div class="footer-title">
-                <h4>微信二维码</h4>
+                <h4>扫一扫咨询</h4>
             </div>
 
             <div class="follow-rq-code">
@@ -91,7 +94,7 @@
 
         </div>
         <div class="footer-copy-box">
-            <p>Copyright © 2018 翼橙少儿编程教育 All Rights Reserved.</p>
+            <p>Copyright © 2018 潍坊翼橙程序设计发展促进中心 All Rights Reserved.</p>
         </div>
     </div>
 </footer>

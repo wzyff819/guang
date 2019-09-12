@@ -2,16 +2,16 @@
     <div class="header-content">
         <a href="/" class="header-logo" target="_blank">
             <div class="logo">
-                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程培训,潍坊编程教育，潍坊少儿编程">
+                <img src="<?php echo $image_path?>/logo.png" alt="潍坊少儿编程,潍坊少儿编程培训,潍坊编程教育">
             </div>
         </a>
         <div class="header-nav-box">
             <div class="head-tel">
                 <span class="iconfont"></span>
-                <span><?php echo $mobile;?></span>
+                <span><?php echo $mobile_zhang;?></span>
             </div>
             <h1 class="head-title">
-                <a href="/">潍坊翼橙少儿编程教育-潍坊真正的少儿编程培训机构</a>
+                <a href="/">潍坊翼橙少儿编程教育，培养6-18岁青少年精英</a>
             </h1>
             <nav class="header-nav" style="max-height: 293px;">
                 <?php print theme('links__system_main_menu', array(
@@ -39,18 +39,19 @@
         <li data-bg="<?php print $image_path; ?>/20170420090603172.jpg||<?php print $image_path; ?>/20170424112158228.jpg">
             <a href="/" class="banner-content1">
                 <div class="ele-animation">
-                    <span class="border-text animation fadeInDown">潍坊少儿编程教育</span>
-                    <p class="animation fadeInUp">学编程，更聪明<br>学得好，来翼橙</p>
-
+                    <span class="border-text animation fadeInDown">潍坊翼橙程序设计</span>
+                    <p class="animation fadeInUp">携手创造孩子未来<br/>
+专注6-15岁青少年编程教育平台</p>
                 </div>
             </a>
         </li>
         <li data-bg="<?php print $image_path; ?>/20170507035453452.jpg||">
             <a href="/" class="banner-content2">
                 <div class="ele-animation">
-                    <span class="border-text animation fadeInDown">报名从速</span>
-                    <p class="animation fadeInUp">小班授课，限时优惠，名额有限</p>
-                    <small class="animation fadeInUp"></small>
+                    <span class="border-text animation fadeInDown">潍坊翼橙青少年编程</span>
+                    <p class="animation fadeInUp">正经学编程，实力创未来</p>
+                    <small class="animation fadeInUp">从第一个hello,world程序
+                        到编程语言特性，到最终的数据结构和算法，教会孩子如何思考问题、如何主动学习。</small>
                 </div>
             </a>
         </li>
@@ -71,7 +72,6 @@
                             <use xlink:href="#icon-computer"></use>
                         </svg>
                         <div class="btn-content">
-                            <small>Signup for Our Courses</small>
                             <span>潍坊少儿编程报名</span>
                         </div>
                     </div>
@@ -84,7 +84,6 @@
                             <use xlink:href="#icon-compass"></use>
                         </svg>
                         <div class="btn-content">
-                            <small>Summercamp signup</small>
                             <span>潍坊成人编程报名</span>
                         </div>
                     </div>
@@ -121,9 +120,9 @@
                         <use xlink:href="#icon-brainstorming"></use>
                     </svg>
                     <span class="advan-brief-box">
-								<h5>逻辑思维</h5>
+								<h5>计算思维</h5>
 								<p>
-									编程有毋庸置疑的天然优势，对逻辑思维能力的培养不是做个数学题能比的。
+									编程对提高逻辑思维和计算思维能力有毋庸置疑的优势。
                                 </p>
 							</span>
                 </div>
@@ -172,7 +171,7 @@
                     <span class="advan-brief-box">
 								<h5>闪耀未来</h5>
 								<p>
-									科技飞速发展，未来编程不再是程序员的专属，从事任何工作都必须要学会程序思维</p>
+									科技飞速发展，未来编程不再是程序员的专属，从事任何工作都必须要有良好的计算思维。</p>
 							</span>
                 </div>
             </li>
@@ -187,13 +186,13 @@
             <span class="en-title">About YiCheng</span>
             <h4>关于翼橙</h4>
             <p>
-                翼橙(YiCheng)，<strong>潍坊首家少儿编程教育机构</strong>，由互联网从业十余年的团队创办。有丰富的开发和培训经验。
-                致力于提高潍坊中小学生对英语、数学的重要性的认知，学到<strong>真正</strong>的编程技能，扫清未来的道路上因不懂编程而遇到的阻碍！
+                翼橙(YiCheng)程序设计发展促进中心，<strong>潍坊首家少儿编程教育机构</strong>，由互联网从业十余年的团队创办，联合北京理工大学计算机学院编制少儿编程精品课程，有丰富的开发和培训经验。
+                致力于为潍坊孩子提供优质的、与国际前沿接轨的计算机编程学习与创新教育，不让孩子在21世纪掉队！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
                 <li><p><span class="iconfont"></span>创客精神</p></li>
                 <li><p><span class="iconfont"></span>英语、数学提高</p></li>
-                <li><p><span class="iconfont"></span>逻辑思维</p></li>
+                <li><p><span class="iconfont"></span>计算思维</p></li>
                 <li><p><span class="iconfont"></span>动手操作</p></li>
             </ul>
             <div class="more-curse-btn">
@@ -306,17 +305,20 @@
 
 
 
+<?php print theme('help');?>
+
 <footer class="footer-box clearfix">
     <div class="footer-about">
         <div class="about-content">
             <div class="footer-title">
-                <h4>潍坊翼橙教学目标</h4>
+                <h4>翼橙教学理念</h4>
             </div>
             <div class="about-brief">
-
                 <p>
-                    潍坊翼橙少儿编程教育，
-                    致力于提高潍坊中小学编程认知，提升英语和数学成绩，并教会他们如何用程序思考和解决问题。</p>
+                    用专业赢得尊重，
+                    用智慧培养学生，
+                    用代码塑造精英。
+             </p>
             </div>
         </div>
     </div>
@@ -326,8 +328,9 @@
                 <h4>联系</h4>
             </div>
             <ul class="contact-mode clearfix">
+            <li><?php print $mobile;?></li>
+
                 <li>地址：<?php print $address;?></li>
-                <li>电话：<?php print $mobile;?></li>
 
             </ul>
 
@@ -343,10 +346,11 @@
 
         </div>
         <div class="footer-copy-box">
-            <p>Copyright © 2018 潍坊翼橙少儿编程教育 All Rights Reserved.</p>
+            <p>Copyright © 2019 潍坊翼橙程序设计发展促进中心 All Rights Reserved.</p>
         </div>
     </div>
 </footer>
+
 <div class="common-alter-mask" id="altetMask">
     <div class="alter-content">
         <img src="<?php print $image_path?>/wzy.png"/>
@@ -354,6 +358,17 @@
     </div>
 </div>
 <div class="page-mask"></div>
-
-
+<style>
+.layui-layer-btn {text-align:center}
+</style>
+<script>
+// layer.msg('翼橙少儿编程暑假班招生开始啦！了解一下？', {
+//   time: 0 //不自动关闭
+//   ,btn: ['必须了解啊', '稍后再说吧']
+//   ,yes: function(index){
+//     layer.close(index);
+//     window.location.href = "/node/22"
+//   }
+// });
+</script>
 <?php render($page['content']['metatags']); ?>

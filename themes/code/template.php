@@ -99,9 +99,12 @@ function code_preprocess_page(&$var)
 
     $var['theme_path'] = drupal_get_path('theme', 'code');
     $var['theme_url'] = file_create_url(drupal_get_path('theme', 'code'));
-    $var['address'] = '潍坊高新区东方路桐荫街东南角';
+    $var['address'] = '潍坊奎文区新华路东风街丹桂里商务楼南楼1020';
     $var['wechat'] = '17763181919';
-    $var['mobile'] = '<a href="tel:17763181919">17763181919</a>';
+    $var['mobile'] = '王老师：<a href="tel:17763181919">17763181919</a>';
+    // $var['mobile'] = '张老师：<a href="tel:15005365096">15005365096</a> &nbsp;&nbsp;王老师：<a href="tel:17763181919">17763181919</a>';
+    // $var['mobile_zhang'] = '张老师：<a href="tel:15005365096">15005365096</a>';
+    $var['mobile_zhang'] = '王老师：<a href="tel:17763181919">17763181919</a>';
     $var['image_path'] = file_create_url('public://images');
 
     if(drupal_is_front_page())

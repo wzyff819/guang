@@ -68,20 +68,23 @@
     <script src="https://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
     <?php print $scripts;?>
+    <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f9d710600d5a8e310e918ce9f87ae947";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </head>
-<body<?php print $body_attributes; ?>>
+<body <?php print $body_attributes; ?>>
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-  <script>
-      var _hmt = _hmt || [];
-      (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?f861bc5a7e9da645c0ae7c7926dc1e7b";
-          var s = document.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(hm, s);
-      })();
-  </script>
+
+
 
 </body>
 </html>

@@ -1,11 +1,23 @@
 $ = jQuery;
 $(document).ready(function(){
+ 
+
+  
+
     $('.jqthumb > img').jqthumb({
         classname: 'jqthumb',
         width: "100%",
         height: "100%",
-        showoncomplete : true
+        position:{
+            x: 0, 
+            y: 0
+        }
+  
     });
+
+
+ 
+
 
 
     ;(function($,window,undefiend){
@@ -92,7 +104,7 @@ $(document).ready(function(){
             autoplay: false ,
             autoplaySpeed: 3000 ,
             speed: 300 ,
-            slidesToScroll: 1,
+            slidesToScroll: 4,
             draggable: false,
             slidePrev: "&#xe64e;",
             slideNext: "&#xe75b;",
@@ -351,31 +363,5 @@ $(document).ready(function(){
             }
         }
     }(jQuery,window,document));
-    ;(function(){
-        "use strict"
-        $('.my-form').each(function(){
-            var that = $(this),
-                id = $(this).attr('id');
-            var validate = $("#" + id).validate({
-                rules:{
-                    "info[name]":{
-                        required:true
-                    },
-                    "info[tel]":{
-                        required:true,
-                        isMobile:true
-                    }
-                },
-                messages:{
-                    "info[name]": {
-                        required:"鍚嶅瓧涓嶈兘涓虹┖锛�"
-                    },
-                    "info[tel]":{
-                        required:"鎵嬫満鍙风爜涓嶈兘涓虹┖!",
-                        isMobile:"璇疯緭鍏ユ纭墜鏈哄彿鐮�!"
-                    }
-                }
-            });
-        });
-    }());
+    ;
 });
