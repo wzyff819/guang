@@ -39,9 +39,9 @@
         <li data-bg="<?php print $image_path; ?>/20170420090603172.jpg||<?php print $image_path; ?>/20170424112158228.jpg">
             <a href="/" class="banner-content1">
                 <div class="ele-animation">
-                    <span class="border-text animation fadeInDown">潍坊翼橙程序设计</span>
+                    <span class="border-text animation fadeInDown">翼橙编程</span>
                     <p class="animation fadeInUp">携手创造孩子未来<br/>
-专注6-15岁青少年编程教育平台</p>
+6-18岁青少年精英编程教育</p>
                 </div>
             </a>
         </li>
@@ -187,7 +187,7 @@
             <h4>关于翼橙</h4>
             <p>
                 翼橙(YiCheng)程序设计发展促进中心，<strong>潍坊首家少儿编程教育机构</strong>，由互联网从业十余年的团队创办，联合北京理工大学计算机学院编制少儿编程精品课程，有丰富的开发和培训经验。
-                致力于为潍坊孩子提供优质的、与国际前沿接轨的计算机编程学习与创新教育，不让孩子在21世纪掉队！
+                致力为潍坊青少年提供优质的、与国际前沿接轨的编程学习与创新教育，不让孩子在21世纪掉队！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
                 <li><p><span class="iconfont"></span>创客精神</p></li>

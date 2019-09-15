@@ -3,17 +3,15 @@
         <em>Course system</em>
         <h3>课程体系</h3>
         <?php if ($description): ?><p>
-            翼橙深知英语和数学的重要性，
+            翼橙编程课程主要分为两部分：深知英语和数学的重要性，
             课程会反复向学生讲述这两门学科的重要知识，并通过编程加以运用。
             在学习编程的过程中，培养学生优秀的学习习惯，提高其他科目的学习能力，一箭三雕。
-<!--            强健的体魄是一切的基础，因此我们设立了<a href="https://baike.baidu.com/item/%E5%92%8F%E6%98%A5%E6%8B%B3/392485?fr=aladdin">咏春拳</a>班，-->
-<!--            免费教授咏春拳，让孩子知识和身体素质同时提高。-->
         </p><?php endif; ?>
     </div>
     <div class="curse-content tab-click">
         <div class="curse-type-box">
             <ul class="curse-type-list tab-menu clearfix">
-                <li class="curr">潍坊少儿编程基础课程</li>
+                <li class="curr">潍坊少儿编程精品课程</li>
                 <li>潍坊少儿编程专项课程</li>
             </ul>
         </div>
@@ -22,27 +20,28 @@
                 <ul class="curse-brief-list clearfix">
                     <li>
                         <a href="/courses/primary">
-                            <h5>初级</h5>
+                            <h5>Scratch编程</h5>
                             <p>
-                                Python（或C语言）作为入门语言，学习基础的编程概念和语法，为后续学习打下坚实基础。 </p>
+                                1~3年级小学生，适合学习Scratch编程。
+                                Scratch是由麻省理工大学媒体实验室专门开发的图形化拖拽式编程工具，核心理念是：想象、编程和分享。
+                         。 </p>
                             <span class="angle-logo"></span>
                             <span class="number">1</span>
                         </a>
                     </li>
                     <li>
                         <a href="/courses/middle">
-                            <h5>中级</h5>
+                            <h5>Python编程</h5>
                             <p>
-                               面向对象学习，编程的精髓。教给孩子<strong>抽象</strong>思维方式。 </p>
-                            <span class="angle-logo"></span>
+                                Python（或C语言）作为入门语言，学习基础的编程概念和编程语言特性，为后续学习打下坚实基础                            <span class="angle-logo"></span>
                             <span class="number">2</span>
                         </a>
                     </li>
                     <li>
                         <a href="/courses/advance">
-                            <h5>进阶</h5>
+                            <h5>NOIP全国青少年信息学奥林匹克竞赛（数据结构和算法）</h5>
                             <p>
-                                根据兴趣定制方向，例如Web开发、人工智能、数据结构和算法、数据挖掘等。 </p>
+                                凭借一句话获得图灵奖的Pascal之父——Nicklaus Wirth，让他获得图灵奖的这句话就是他提出的著名公式：“算法+数据结构=程序”。 </p>
                             <span class="angle-logo"></span>
                             <span class="number">3</span>
                         </a>
