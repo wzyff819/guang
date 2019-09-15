@@ -25,7 +25,6 @@
                                 1~3年级小学生，适合学习Scratch编程。
                                 Scratch是由麻省理工大学媒体实验室专门开发的图形化拖拽式编程工具，核心理念是：想象、编程和分享。
                          。 </p>
-                            <span class="angle-logo"></span>
                             <span class="number">1</span>
                         </a>
                     </li>
@@ -33,7 +32,8 @@
                         <a href="/courses/middle">
                             <h5>Python编程</h5>
                             <p>
-                                Python（或C语言）作为入门语言，学习基础的编程概念和编程语言特性，为后续学习打下坚实基础                            <span class="angle-logo"></span>
+                                Python（或C语言）作为入门语言，学习基础的编程概念和编程语言特性，为后续学习打下坚实基础。</p>
+
                             <span class="number">2</span>
                         </a>
                     </li>
@@ -42,7 +42,6 @@
                             <h5>NOIP全国青少年信息学奥林匹克竞赛（数据结构和算法）</h5>
                             <p>
                                 凭借一句话获得图灵奖的Pascal之父——Nicklaus Wirth，让他获得图灵奖的这句话就是他提出的著名公式：“算法+数据结构=程序”。 </p>
-                            <span class="angle-logo"></span>
                             <span class="number">3</span>
                         </a>
                     </li>
