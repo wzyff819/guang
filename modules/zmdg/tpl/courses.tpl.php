@@ -39,7 +39,7 @@
                     </li>
                     <li>
                         <a href="/courses/advance">
-                            <h5>NOIP全国青少年信息学奥林匹克竞赛（数据结构和算法）</h5>
+                            <h5>NOIP课程（数据结构和算法）</h5>
                             <p>
                                 凭借一句话获得图灵奖的Pascal之父——Nicklaus Wirth，让他获得图灵奖的这句话就是他提出的著名公式：“算法+数据结构=程序”。 </p>
                             <span class="number">3</span>
