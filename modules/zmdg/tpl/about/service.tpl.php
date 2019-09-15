@@ -12,11 +12,10 @@
                 <p>翼橙用<strong>独创的故事性</strong>授课方式引导学生循序渐进学习编程。
                     把晦涩难懂的计算机概念用学生易懂的方式教授。
                     课程结合了东方教学的系统性和西方的创新性。
-                    授课内容包括Scratch编程、C语言编程、Python编程、Web编程等。
+                    授课内容包括Scratch编程、C/C++语言编程、Python编程、Web编程等。
                     让孩子在计算思维、专注力、逻辑思维、沟通技巧、动手操作能力得到更早的启蒙和更全方位的提升。
                 </p>
-                <p> 同时免费教授孩子咏春拳，我们始终认为强健的体魄是一切学习的灵魂！
-                </p>
+
             </div>
         </div>
         <div class="service-product-list-box">
@@ -25,9 +24,7 @@
                     <li>
                         <p><span class="iconfont"></span> <em>少儿编程定制化小班教学</em></p>
                     </li>
-                    <li>
-                        <p><span class="iconfont">&#xe613;</span> <em>强健身体-咏春拳</em></p>
-                    </li>
+
 
                     <li>
                         <p><span class="iconfont"></span> <em>少儿编程竞赛通道</em></p>
