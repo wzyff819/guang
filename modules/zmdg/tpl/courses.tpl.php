@@ -39,7 +39,7 @@
                     </li>
                     <li>
                         <a href="/courses/advance">
-                            <h5>NOIP课程（数据结构和算法）</h5>
+                            <h5>数据结构和算法-NOIP</h5>
                             <p>
                                 一句话的图灵奖：“算法+数据结构=程序”。 </p>
                             <span class="number">3</span>
