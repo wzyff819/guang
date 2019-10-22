@@ -68,7 +68,7 @@
     <script src="https://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
     <?php print $scripts;?>
-    <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+<!--    <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>-->
     <script>
 var _hmt = _hmt || [];
 (function() {

@@ -186,8 +186,9 @@
             <span class="en-title">About YiCheng</span>
             <h4>关于翼橙</h4>
             <p>
-                翼橙(YiCheng)程序设计发展促进中心，<strong>潍坊首家少儿编程教育机构</strong>，由互联网从业十余年的团队创办，联合北京理工大学计算机学院编制少儿编程精品课程，有丰富的开发和培训经验。
-                致力为潍坊青少年提供优质的、与国际前沿接轨的编程学习与创新教育，不让孩子在21世纪掉队！
+                翼橙(YiCheng)，潍坊<strong>真正的</strong>青少年编程教育，由软件开发从业十余年的团队创办，有丰富的实战和培训经验。
+                联合江苏大学、天津大学编制少儿编程课程 ，
+                致力于为潍坊中小学生提供真正的、国际前沿的程序设计教育，不让孩子在21世纪掉队！
             </p>
             <ul class="about-data-list clearfix list-paddingleft-2">
                 <li><p><span class="iconfont"></span>创客精神</p></li>
