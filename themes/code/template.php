@@ -102,9 +102,7 @@ function code_preprocess_page(&$var)
     $var['address'] = '潍坊奎文区新华路东风街丹桂里商务楼南楼1020';
     $var['wechat'] = '17763181919';
     $var['mobile'] = '王老师：<a href="tel:17763181919">17763181919</a>';
-    // $var['mobile'] = '张老师：<a href="tel:15005365096">15005365096</a> &nbsp;&nbsp;王老师：<a href="tel:17763181919">17763181919</a>';
-    // $var['mobile_zhang'] = '张老师：<a href="tel:15005365096">15005365096</a>';
-    $var['mobile_zhang'] = '王老师：<a href="tel:17763181919">17763181919</a>';
+    $var['mobile_zhang'] = '张老师：<a href="tel:17306363713">17306363713</a>';
     $var['image_path'] = file_create_url('public://images');
 
     if(drupal_is_front_page())

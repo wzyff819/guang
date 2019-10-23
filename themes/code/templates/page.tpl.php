@@ -89,7 +89,7 @@
             </div>
 
             <div class="follow-rq-code">
-                <img src="<?php print $image_path?>/wzy.png"/>
+                <img src="<?php print $image_path?>/wzy.jpg"/>
             </div>
 
         </div>
@@ -100,7 +100,7 @@
 </footer>
 <div class="common-alter-mask" id="altetMask">
     <div class="alter-content">
-        <img src="<?php print $image_path?>/wzy.png"/>
+        <img src="<?php print $image_path?>/wzy.jpg"/>
         <span class="iconfont close-btn">&times;</span>
     </div>
 </div>

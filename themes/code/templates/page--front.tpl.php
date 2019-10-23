@@ -329,6 +329,7 @@
                 <h4>联系</h4>
             </div>
             <ul class="contact-mode clearfix">
+            <li><?php print $mobile_zhang;?></li>
             <li><?php print $mobile;?></li>
 
                 <li>地址：<?php print $address;?></li>
@@ -342,7 +343,7 @@
             </div>
 
             <div class="follow-rq-code">
-                <img src="<?php print $image_path?>/wzy.png"/>
+                <img src="<?php print $image_path?>/wzy.jpg"/>
             </div>
 
         </div>
@@ -354,7 +355,7 @@
 
 <div class="common-alter-mask" id="altetMask">
     <div class="alter-content">
-        <img src="<?php print $image_path?>/wzy.png"/>
+        <img src="<?php print $image_path?>/wzy.jpg"/>
         <span class="iconfont close-btn">&times;</span>
     </div>
 </div>
