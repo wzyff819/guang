@@ -76,6 +76,7 @@
                 <h4>联系</h4>
             </div>
             <ul class="contact-mode clearfix">
+            <li><?php print $mobile_zhang;?></li>
             <li><?php print $mobile;?></li>
 
                 <li>地址：<?php print $address;?></li>
